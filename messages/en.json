@@ -1,0 +1,107 @@
+{
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "cta": "Get Filenest"
+  },
+  "hero": {
+    "badge": "Now available for macOS & Windows",
+    "headline1": "Your files.",
+    "headline2": "Your AI. Your machine.",
+    "sub": "Local-first, AI-powered document management for immigration consultants, lawyers, and accountants. Zero cloud uploads. AES-256 encrypted.",
+    "download": "Download Filenest",
+    "explore": "Explore features",
+    "trust1": "Zero cloud uploads",
+    "trust2": "AES-256 encrypted",
+    "trust3": "Local AI inference"
+  },
+  "features": {
+    "label": "Core Features",
+    "heading": "Built for professionals who take privacy seriously",
+    "f1_title": "Intelligent Document Search",
+    "f1_desc": "Instantly surface the right file across thousands of documents. Natural language queries understand context, not just filenames.",
+    "f1_highlight": "Find anything in under 2 seconds",
+    "f2_title": "Local AI Extraction",
+    "f2_desc": "Run powerful LLMs directly on your machine. Extract entities, summarize clauses, and generate reports — no data ever leaves your device.",
+    "f2_highlight": "100% offline AI inference",
+    "f3_title": "Military-Grade Encryption",
+    "f3_desc": "Every file is encrypted at rest with AES-256. Your client data, case files, and financial records are locked down by default.",
+    "f3_highlight": "AES-256 + zero cloud uploads"
+  },
+  "showcase": {
+    "label": "Why Filenest",
+    "heading": "Your practice deserves better tools.",
+    "s1_tag": "Document Chaos",
+    "s1_headline": "Stop drowning in folders.",
+    "s1_body": "Your clients send dozens of files — passports, permits, leases, letters. Finding the right one means opening folder after folder. Filenest reads every document and surfaces exactly what you need in under 2 seconds.",
+    "s2_tag": "AI, Without the Risk",
+    "s2_headline": "You want AI. Not a data breach.",
+    "s2_body": "ChatGPT, Gemini, Claude — useful, but uploading a client's passport or medical record to a cloud service is a liability you can't afford. Filenest runs AI entirely on your machine. Nothing leaves. Ever.",
+    "s3_tag": "Instant Extraction",
+    "s3_headline": "Stop copy-pasting from documents.",
+    "s3_body": "Name, date, permit number, expiry — you've typed it all by hand a hundred times. Filenest reads the document and pulls every field automatically. You review, you approve. Done.",
+    "s4_tag": "Ask, Don't Search",
+    "s4_headline": "Just ask about your files.",
+    "s4_body": "\"When does James's permit expire?\" Instead of opening five documents to find one answer, ask Filenest. It reads your files locally and answers immediately — with the source cited.",
+    "s5_tag": "Built for Your Practice",
+    "s5_headline": "Templates for every profession.",
+    "s5_body": "Immigration consultant, lawyer, accountant, real estate agent — Filenest ships with templates tailored to your workflow. The right required documents, the right fields, ready from day one."
+  },
+  "pricing": {
+    "label": "Pricing",
+    "heading": "Simple, transparent pricing",
+    "sub": "Every plan includes a 14-day free trial. No credit card required to start.",
+    "trial": "14-day free trial included",
+    "popular": "Most Popular",
+    "monthly_name": "Monthly",
+    "monthly_price": "$3.99",
+    "monthly_period": "/mo",
+    "monthly_subline": "Billed monthly",
+    "monthly_desc": "Full access with the flexibility to cancel anytime.",
+    "monthly_cta": "Start Free Trial",
+    "annual_name": "Annual",
+    "annual_price": "$39.99",
+    "annual_period": "/yr",
+    "annual_subline": "~$3.33/mo · Save 17%",
+    "annual_desc": "Best value for professionals. One payment, full year.",
+    "annual_cta": "Start Free Trial",
+    "lifetime_name": "Lifetime",
+    "lifetime_price": "$89.99",
+    "lifetime_period": " one-time",
+    "lifetime_subline": "Pay once, own forever",
+    "lifetime_desc": "All future updates included. No recurring charges ever.",
+    "lifetime_cta": "Get Lifetime Access",
+    "f_unlimited": "Unlimited local documents",
+    "f_ai": "Local AI search & extraction",
+    "f_enc": "AES-256 encryption at rest",
+    "f_apps": "macOS & Windows apps",
+    "f_email": "Email support",
+    "f_save": "Save 17% vs monthly",
+    "f_priority": "Priority email support",
+    "f_beta": "Early access to beta features",
+    "f_devices2": "Up to 2 devices",
+    "f_updates": "Lifetime updates",
+    "f_devices2b": "License for 2 devices",
+    "f_early": "Early access to new features"
+  },
+  "footer": {
+    "tagline": "Local-first, AI-powered document management. Your files. Your AI. Your machine.",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "refund": "Refund",
+    "contact": "Contact",
+    "copyright": "All rights reserved."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "effective": "Effective date: June 2026"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "effective": "Effective date: June 2026"
+  },
+  "refund": {
+    "title": "Refund Policy",
+    "effective": "Effective date: June 2026"
+  }
+}
