@@ -6,8 +6,8 @@
   },
   "hero": {
     "badge": "现已支持 macOS 和 Windows",
-    "headline1": "你的文件。",
-    "headline2": "你的 AI。你的电脑。",
+    "headline1": "你的文件",
+    "headline2": "你的 AI，你的电脑",
     "sub": "本地优先、AI 驱动的文档管理工具，专为移民顾问、律师和会计师设计。零云端上传，AES-256 加密。",
     "download": "下载 Filenest",
     "explore": "了解功能",
