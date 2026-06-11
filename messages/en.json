@@ -82,7 +82,8 @@
     "f_devices2": "Up to 2 devices",
     "f_updates": "Lifetime updates",
     "f_devices2b": "License for 2 devices",
-    "f_early": "Early access to new features"
+    "f_early": "Early access to new features",
+    "lifetime_badge": "Lifetime access"
   },
   "footer": {
     "tagline": "Local-first, AI-powered document management. Your files. Your AI. Your machine.",

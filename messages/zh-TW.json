@@ -82,7 +82,8 @@
     "f_devices2": "最多 2 台裝置",
     "f_updates": "永久更新",
     "f_devices2b": "2 台裝置授權",
-    "f_early": "新功能優先體驗"
+    "f_early": "新功能優先體驗",
+    "lifetime_badge": "永久使用"
   },
   "footer": {
     "tagline": "本地優先、AI 驅動的文件管理。你的文件。你的 AI。你的電腦。",
@@ -92,7 +93,16 @@
     "contact": "聯絡我們",
     "copyright": "保留所有權利。"
   },
-  "privacy": { "title": "隱私政策", "effective": "生效日期：2026 年 6 月" },
-  "terms": { "title": "服務條款", "effective": "生效日期：2026 年 6 月" },
-  "refund": { "title": "退款政策", "effective": "生效日期：2026 年 6 月" }
+  "privacy": {
+    "title": "隱私政策",
+    "effective": "生效日期：2026 年 6 月"
+  },
+  "terms": {
+    "title": "服務條款",
+    "effective": "生效日期：2026 年 6 月"
+  },
+  "refund": {
+    "title": "退款政策",
+    "effective": "生效日期：2026 年 6 月"
+  }
 }

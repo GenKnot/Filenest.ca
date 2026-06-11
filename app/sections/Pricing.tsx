@@ -4,6 +4,8 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { Check, Calendar, Zap, Infinity } from "lucide-react";
 import { useTranslations } from "../../lib/i18n";
+import { CheckoutButton } from "../components/CheckoutButton";
+import { PRICE_IDS } from "../../lib/paddle";
 
 export default function Pricing() {
   const t = useTranslations("pricing");
@@ -19,6 +21,8 @@ export default function Pricing() {
       description: t("monthly_desc"),
       icon: Calendar,
       popular: false,
+      priceId: PRICE_IDS.monthly,
+      showTrial: true,
       features: [
         t("f_unlimited"), t("f_ai"), t("f_enc"), t("f_apps"), t("f_email"),
       ],
@@ -32,6 +36,8 @@ export default function Pricing() {
       description: t("annual_desc"),
       icon: Zap,
       popular: true,
+      priceId: PRICE_IDS.annual,
+      showTrial: true,
       features: [
         t("f_unlimited"), t("f_save"), t("f_priority"), t("f_beta"), t("f_devices2"),
       ],
@@ -45,6 +51,8 @@ export default function Pricing() {
       description: t("lifetime_desc"),
       icon: Infinity,
       popular: false,
+      priceId: PRICE_IDS.lifetime,
+      showTrial: false,
       features: [
         t("f_unlimited"), t("f_updates"), t("f_priority"), t("f_devices2b"), t("f_early"),
       ],
@@ -73,7 +81,7 @@ export default function Pricing() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {plans.map((plan, i) => (
-            <PricingCard key={plan.name} plan={plan} index={i} trialLabel={t("trial")} popularLabel={t("popular")} />
+            <PricingCard key={plan.name} plan={plan} index={i} trialLabel={t("trial")} lifetimeLabel={t("lifetime_badge")} popularLabel={t("popular")} />
           ))}
         </div>
       </div>
@@ -82,14 +90,15 @@ export default function Pricing() {
 }
 
 function PricingCard({
-  plan, index, trialLabel, popularLabel,
+  plan, index, trialLabel, lifetimeLabel, popularLabel,
 }: {
   plan: {
     name: string; price: string; period: string; subline: string; description: string;
-    icon: React.ElementType; popular: boolean; features: string[]; cta: string;
+    icon: React.ElementType; popular: boolean; priceId: string; showTrial: boolean; features: string[]; cta: string;
   };
   index: number;
   trialLabel: string;
+  lifetimeLabel: string;
   popularLabel: string;
 }) {
   const ref = useRef<HTMLDivElement>(null);
@@ -127,10 +136,17 @@ function PricingCard({
       <p className="mt-1 text-xs text-foreground-dim">{plan.subline}</p>
       <p className="mt-3 text-sm text-foreground-muted leading-relaxed">{plan.description}</p>
 
-      <div className="mt-4 inline-flex items-center gap-1.5 rounded-full bg-emerald-500/10 px-3 py-1 text-xs font-medium text-emerald-400 ring-1 ring-emerald-500/20 self-start">
-        <Check size={11} strokeWidth={2.5} />
-        {trialLabel}
-      </div>
+      {plan.showTrial ? (
+        <div className="mt-4 inline-flex items-center gap-1.5 rounded-full bg-emerald-500/10 px-3 py-1 text-xs font-medium text-emerald-400 ring-1 ring-emerald-500/20 self-start">
+          <Check size={11} strokeWidth={2.5} />
+          {trialLabel}
+        </div>
+      ) : (
+        <div className="mt-4 inline-flex items-center gap-1.5 rounded-full bg-accent/10 px-3 py-1 text-xs font-medium text-accent ring-1 ring-accent/20 self-start">
+          <Infinity size={11} strokeWidth={2.5} />
+          {lifetimeLabel}
+        </div>
+      )}
 
       <ul className="mt-6 flex-1 space-y-3">
         {plan.features.map((f) => (
@@ -141,16 +157,15 @@ function PricingCard({
         ))}
       </ul>
 
-      <a
-        href="#"
-        className={`mt-8 inline-flex items-center justify-center rounded-xl px-5 py-3 text-sm font-semibold transition-all duration-200 ${
+      <CheckoutButton
+        priceId={plan.priceId}
+        label={plan.cta}
+        className={`mt-8 inline-flex items-center justify-center rounded-xl px-5 py-3 text-sm font-semibold transition-all duration-200 disabled:opacity-70 disabled:cursor-not-allowed disabled:transform-none ${
           plan.popular
             ? "bg-accent text-white shadow-lg shadow-accent-glow hover:brightness-110 hover:-translate-y-0.5"
             : "border border-border-medium text-foreground hover:bg-surface-elevated hover:border-border-medium/80"
         }`}
-      >
-        {plan.cta}
-      </a>
+      />
     </motion.div>
   );
 }

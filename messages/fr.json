@@ -82,7 +82,8 @@
     "f_devices2": "Jusqu'à 2 appareils",
     "f_updates": "Mises à jour à vie",
     "f_devices2b": "Licence pour 2 appareils",
-    "f_early": "Accès anticipé aux nouvelles fonctionnalités"
+    "f_early": "Accès anticipé aux nouvelles fonctionnalités",
+    "lifetime_badge": "Accès à vie"
   },
   "footer": {
     "tagline": "Gestion documentaire locale et IA. Vos fichiers. Votre IA. Votre machine.",
@@ -92,7 +93,16 @@
     "contact": "Contact",
     "copyright": "Tous droits réservés."
   },
-  "privacy": { "title": "Politique de confidentialité", "effective": "Date d'effet : juin 2026" },
-  "terms": { "title": "Conditions d'utilisation", "effective": "Date d'effet : juin 2026" },
-  "refund": { "title": "Politique de remboursement", "effective": "Date d'effet : juin 2026" }
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "effective": "Date d'effet : juin 2026"
+  },
+  "terms": {
+    "title": "Conditions d'utilisation",
+    "effective": "Date d'effet : juin 2026"
+  },
+  "refund": {
+    "title": "Politique de remboursement",
+    "effective": "Date d'effet : juin 2026"
+  }
 }

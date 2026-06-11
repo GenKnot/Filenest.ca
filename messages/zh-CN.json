@@ -82,7 +82,8 @@
     "f_devices2": "最多 2 台设备",
     "f_updates": "永久更新",
     "f_devices2b": "2 台设备授权",
-    "f_early": "新功能优先体验"
+    "f_early": "新功能优先体验",
+    "lifetime_badge": "永久使用"
   },
   "footer": {
     "tagline": "本地优先、AI 驱动的文档管理。你的文件。你的 AI。你的电脑。",
@@ -92,7 +93,16 @@
     "contact": "联系我们",
     "copyright": "保留所有权利。"
   },
-  "privacy": { "title": "隐私政策", "effective": "生效日期：2026 年 6 月" },
-  "terms": { "title": "服务条款", "effective": "生效日期：2026 年 6 月" },
-  "refund": { "title": "退款政策", "effective": "生效日期：2026 年 6 月" }
+  "privacy": {
+    "title": "隐私政策",
+    "effective": "生效日期：2026 年 6 月"
+  },
+  "terms": {
+    "title": "服务条款",
+    "effective": "生效日期：2026 年 6 月"
+  },
+  "refund": {
+    "title": "退款政策",
+    "effective": "生效日期：2026 年 6 月"
+  }
 }

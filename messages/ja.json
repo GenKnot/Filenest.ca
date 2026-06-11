@@ -82,7 +82,8 @@
     "f_devices2": "最大2台",
     "f_updates": "永続アップデート",
     "f_devices2b": "2台ライセンス",
-    "f_early": "新機能への早期アクセス"
+    "f_early": "新機能への早期アクセス",
+    "lifetime_badge": "永続アクセス"
   },
   "footer": {
     "tagline": "ローカルファーストのAI文書管理。あなたのファイル。あなたのAI。あなたのPC。",
@@ -92,7 +93,16 @@
     "contact": "お問い合わせ",
     "copyright": "All rights reserved."
   },
-  "privacy": { "title": "プライバシーポリシー", "effective": "施行日：2026年6月" },
-  "terms": { "title": "利用規約", "effective": "施行日：2026年6月" },
-  "refund": { "title": "返金ポリシー", "effective": "施行日：2026年6月" }
+  "privacy": {
+    "title": "プライバシーポリシー",
+    "effective": "施行日：2026年6月"
+  },
+  "terms": {
+    "title": "利用規約",
+    "effective": "施行日：2026年6月"
+  },
+  "refund": {
+    "title": "返金ポリシー",
+    "effective": "施行日：2026年6月"
+  }
 }

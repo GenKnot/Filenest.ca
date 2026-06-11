@@ -82,7 +82,8 @@
     "f_devices2": "Até 2 dispositivos",
     "f_updates": "Atualizações vitalícias",
     "f_devices2b": "Licença para 2 dispositivos",
-    "f_early": "Acesso antecipado a novos recursos"
+    "f_early": "Acesso antecipado a novos recursos",
+    "lifetime_badge": "Acesso vitalício"
   },
   "footer": {
     "tagline": "Gestão de documentos local com IA. Seus arquivos. Sua IA. Sua máquina.",
@@ -92,7 +93,16 @@
     "contact": "Contato",
     "copyright": "Todos os direitos reservados."
   },
-  "privacy": { "title": "Política de privacidade", "effective": "Data de vigência: junho 2026" },
-  "terms": { "title": "Termos de serviço", "effective": "Data de vigência: junho 2026" },
-  "refund": { "title": "Política de reembolso", "effective": "Data de vigência: junho 2026" }
+  "privacy": {
+    "title": "Política de privacidade",
+    "effective": "Data de vigência: junho 2026"
+  },
+  "terms": {
+    "title": "Termos de serviço",
+    "effective": "Data de vigência: junho 2026"
+  },
+  "refund": {
+    "title": "Política de reembolso",
+    "effective": "Data de vigência: junho 2026"
+  }
 }
