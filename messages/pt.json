@@ -104,5 +104,9 @@
   "refund": {
     "title": "Política de reembolso",
     "effective": "Data de vigência: junho 2026"
+  },
+  "seo": {
+    "title": "Filenest — Gestão de documentos local com IA",
+    "description": "Gestão de documentos com IA para consultores de imigração, advogados e contadores. OCR automático, arquivamento inteligente, lembretes de prazos. Seus arquivos nunca saem da sua máquina — criptografia AES-256."
   }
 }

@@ -104,5 +104,9 @@
   "refund": {
     "title": "Politique de remboursement",
     "effective": "Date d'effet : juin 2026"
+  },
+  "seo": {
+    "title": "Filenest — Gestion documentaire locale avec IA",
+    "description": "Gestion documentaire IA pour consultants en immigration, avocats et comptables. OCR automatique, classement intelligent, rappels d'échéances. Vos fichiers restent sur votre machine — zéro cloud, chiffrement AES-256."
   }
 }

@@ -104,5 +104,9 @@
   "refund": {
     "title": "Refund Policy",
     "effective": "Effective date: June 2026"
+  },
+  "seo": {
+    "title": "Filenest — Local-First Document Management with AI",
+    "description": "AI-powered document management for immigration consultants, lawyers, and accountants. Automatic OCR, smart filing, key-date reminders. Your files, your AI, your machine — zero cloud uploads, AES-256 encrypted."
   }
 }
