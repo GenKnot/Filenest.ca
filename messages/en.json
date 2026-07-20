@@ -5,7 +5,7 @@
     "cta": "Get Filenest"
   },
   "hero": {
-    "badge": "Now available for macOS & Windows",
+    "badge": "Now available for macOS",
     "headline1": "Your files.",
     "headline2": "Your AI. Your machine.",
     "sub": "Local-first, AI-powered document management for immigration consultants, lawyers, and accountants. Zero cloud uploads. AES-256 encrypted.",
@@ -74,7 +74,7 @@
     "f_unlimited": "Unlimited local documents",
     "f_ai": "Local AI search & extraction",
     "f_enc": "AES-256 encryption at rest",
-    "f_apps": "macOS & Windows apps",
+    "f_apps": "macOS app (Windows coming soon)",
     "f_email": "Email support",
     "f_save": "Save 17% vs monthly",
     "f_priority": "Priority email support",

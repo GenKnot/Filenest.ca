@@ -100,7 +100,9 @@ export default function Hero() {
           className="mt-10 flex flex-col sm:flex-row items-center gap-4"
         >
           <a
-            href="#pricing"
+            // Stable download URL: the worker 302s to the current version's
+            // notarized DMG in R2 (see license-server /download/macos).
+            href="https://filenest-license.503-18a.workers.dev/download/macos"
             className="group inline-flex items-center gap-2 rounded-xl bg-accent px-7 py-3.5 text-base font-semibold text-white shadow-lg shadow-accent-glow transition-all duration-300 hover:brightness-110 hover:shadow-accent-glow/50 hover:-translate-y-0.5"
           >
             {t("download")}

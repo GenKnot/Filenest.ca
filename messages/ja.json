@@ -5,7 +5,7 @@
     "cta": "ダウンロード"
   },
   "hero": {
-    "badge": "macOS・Windows 対応",
+    "badge": "macOS版 提供開始",
     "headline1": "あなたのファイル",
     "headline2": "あなたのAI、あなたのPC",
     "sub": "移民コンサルタント・弁護士・会計士向けの、ローカルファーストなAI文書管理ツール。クラウドへのアップロードは一切なし。AES-256暗号化。",
@@ -74,7 +74,7 @@
     "f_unlimited": "ローカル文書無制限",
     "f_ai": "ローカルAI検索・抽出",
     "f_enc": "AES-256静止時暗号化",
-    "f_apps": "macOS・Windowsアプリ",
+    "f_apps": "macOSアプリ(Windows版は近日公開)",
     "f_email": "メールサポート",
     "f_save": "月払いより17%お得",
     "f_priority": "優先メールサポート",

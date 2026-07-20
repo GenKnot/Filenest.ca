@@ -5,7 +5,7 @@
     "cta": "下载 Filenest"
   },
   "hero": {
-    "badge": "现已支持 macOS 和 Windows",
+    "badge": "macOS 版现已推出",
     "headline1": "你的文件",
     "headline2": "你的 AI，你的电脑",
     "sub": "本地优先、AI 驱动的文档管理工具，专为移民顾问、律师和会计师设计。零云端上传，AES-256 加密。",
@@ -74,7 +74,7 @@
     "f_unlimited": "无限本地文档",
     "f_ai": "本地 AI 搜索与提取",
     "f_enc": "AES-256 静态加密",
-    "f_apps": "macOS 和 Windows 应用",
+    "f_apps": "macOS 应用(Windows 版即将推出)",
     "f_email": "邮件支持",
     "f_save": "比月付节省 17%",
     "f_priority": "优先邮件支持",

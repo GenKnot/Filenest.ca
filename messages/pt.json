@@ -5,7 +5,7 @@
     "cta": "Obter Filenest"
   },
   "hero": {
-    "badge": "Disponível para macOS e Windows",
+    "badge": "Já disponível para macOS",
     "headline1": "Seus arquivos.",
     "headline2": "Sua IA. Sua máquina.",
     "sub": "Gestão de documentos local com IA, para consultores de imigração, advogados e contadores. Sem envios para a nuvem. Criptografia AES-256.",
@@ -74,7 +74,7 @@
     "f_unlimited": "Documentos locais ilimitados",
     "f_ai": "Busca e extração com IA local",
     "f_enc": "Criptografia AES-256 em repouso",
-    "f_apps": "Apps para macOS e Windows",
+    "f_apps": "App para macOS (Windows em breve)",
     "f_email": "Suporte por e-mail",
     "f_save": "Economize 17% vs mensal",
     "f_priority": "Suporte prioritário por e-mail",
