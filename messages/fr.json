@@ -8,7 +8,7 @@
     "badge": "Disponible dès maintenant sur macOS",
     "headline1": "Vos fichiers.",
     "headline2": "Votre IA. Votre machine.",
-    "sub": "Gestion de documents locale et assistée par IA, pour consultants en immigration, avocats et comptables. Zéro transfert cloud. Chiffrement AES-256.",
+    "sub": "Gestion de documents locale et assistée par IA, pour consultants en immigration, avocats, comptables — et tous les professionnels qui vivent des dossiers clients. Zéro transfert cloud. Chiffrement AES-256.",
     "download": "Télécharger Filenest",
     "explore": "Voir les fonctionnalités",
     "trust1": "Zéro transfert cloud",
@@ -45,7 +45,7 @@
     "s4_body": "« Quand expire le permis de James ? » Au lieu d'ouvrir cinq documents, interrogez Filenest. Il lit vos fichiers localement et répond immédiatement — avec la source citée.",
     "s5_tag": "Pour votre cabinet",
     "s5_headline": "Modèles pour chaque profession.",
-    "s5_body": "Consultant en immigration, avocat, comptable, agent immobilier — Filenest inclut des modèles adaptés à votre flux de travail, avec les documents et champs requis dès le premier jour."
+    "s5_body": "Consultant en immigration, avocat, comptable, agent immobilier, conseiller en études à l'étranger, courtier en assurance — Filenest inclut des modèles adaptés à votre flux de travail, avec les documents et champs requis dès le premier jour. Et il organise tout aussi bien vos propres papiers de visa, d'impôts et d'études."
   },
   "pricing": {
     "label": "Tarifs",
@@ -107,6 +107,6 @@
   },
   "seo": {
     "title": "Filenest — Gestion documentaire locale avec IA",
-    "description": "Gestion documentaire IA pour consultants en immigration, avocats et comptables. OCR automatique, classement intelligent, rappels d'échéances. Vos fichiers restent sur votre machine — zéro cloud, chiffrement AES-256."
+    "description": "Gestion documentaire IA pour consultants en immigration, avocats, comptables, conseillers en études à l'étranger, agents — et vos propres papiers de visa, d'impôts et d'études. OCR automatique, classement intelligent, rappels d'échéances. Vos fichiers restent sur votre machine — zéro cloud, chiffrement AES-256."
   }
 }

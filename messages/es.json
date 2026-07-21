@@ -8,7 +8,7 @@
     "badge": "Ya disponible para macOS",
     "headline1": "Tus archivos.",
     "headline2": "Tu IA. Tu máquina.",
-    "sub": "Gestión de documentos local con IA, para consultores de inmigración, abogados y contadores. Sin subidas a la nube. Cifrado AES-256.",
+    "sub": "Gestión de documentos local con IA, para consultores de inmigración, abogados, contadores — y todo profesional que vive de los expedientes de sus clientes. Sin subidas a la nube. Cifrado AES-256.",
     "download": "Descargar Filenest",
     "explore": "Ver funciones",
     "trust1": "Sin subidas a la nube",
@@ -45,7 +45,7 @@
     "s4_body": "«¿Cuándo vence el permiso de James?» En vez de abrir cinco documentos, pregúntale a Filenest. Lee tus archivos localmente y responde de inmediato — con la fuente citada.",
     "s5_tag": "Para tu despacho",
     "s5_headline": "Plantillas para cada profesión.",
-    "s5_body": "Consultor de inmigración, abogado, contador, agente inmobiliario — Filenest incluye plantillas para tu flujo de trabajo. Los documentos y campos correctos, listos desde el primer día."
+    "s5_body": "Consultor de inmigración, abogado, contador, agente inmobiliario, asesor de estudios en el extranjero, corredor de seguros — Filenest incluye plantillas para tu flujo de trabajo. Los documentos y campos correctos, listos desde el primer día. Y organiza igual de bien tus propios papeles de visa, impuestos y estudios."
   },
   "pricing": {
     "label": "Precios",
@@ -107,6 +107,6 @@
   },
   "seo": {
     "title": "Filenest — Gestión documental local con IA",
-    "description": "Gestión documental con IA para consultores de inmigración, abogados y contadores. OCR automático, archivado inteligente, recordatorios de vencimientos. Sus archivos nunca salen de su equipo — cifrado AES-256."
+    "description": "Gestión documental con IA para consultores de inmigración, abogados, contadores, asesores de estudios en el extranjero, agentes — y sus propios papeles de visa, impuestos y estudios. OCR automático, archivado inteligente, recordatorios de vencimientos. Sus archivos nunca salen de su equipo — cifrado AES-256."
   }
 }

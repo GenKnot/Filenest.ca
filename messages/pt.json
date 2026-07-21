@@ -8,7 +8,7 @@
     "badge": "Já disponível para macOS",
     "headline1": "Seus arquivos.",
     "headline2": "Sua IA. Sua máquina.",
-    "sub": "Gestão de documentos local com IA, para consultores de imigração, advogados e contadores. Sem envios para a nuvem. Criptografia AES-256.",
+    "sub": "Gestão de documentos local com IA, para consultores de imigração, advogados, contadores — e todo profissional que vive de arquivos de clientes. Sem envios para a nuvem. Criptografia AES-256.",
     "download": "Baixar Filenest",
     "explore": "Ver recursos",
     "trust1": "Sem envios para a nuvem",
@@ -45,7 +45,7 @@
     "s4_body": "«Quando vence o visto do James?» Em vez de abrir cinco documentos, pergunte ao Filenest. Ele lê seus arquivos localmente e responde imediatamente — com a fonte citada.",
     "s5_tag": "Para o seu escritório",
     "s5_headline": "Modelos para cada profissão.",
-    "s5_body": "Consultor de imigração, advogado, contador, corretor imobiliário — Filenest inclui modelos para o seu fluxo de trabalho. Os documentos e campos certos, prontos desde o primeiro dia."
+    "s5_body": "Consultor de imigração, advogado, contador, corretor imobiliário, consultor de intercâmbio, corretor de seguros — Filenest inclui modelos para o seu fluxo de trabalho. Os documentos e campos certos, prontos desde o primeiro dia. E organiza igualmente bem seus próprios documentos de visto, impostos e estudos."
   },
   "pricing": {
     "label": "Preços",
@@ -107,6 +107,6 @@
   },
   "seo": {
     "title": "Filenest — Gestão de documentos local com IA",
-    "description": "Gestão de documentos com IA para consultores de imigração, advogados e contadores. OCR automático, arquivamento inteligente, lembretes de prazos. Seus arquivos nunca saem da sua máquina — criptografia AES-256."
+    "description": "Gestão de documentos com IA para consultores de imigração, advogados, contadores, consultores de intercâmbio, corretores — e seus próprios documentos de visto, impostos e estudos. OCR automático, arquivamento inteligente, lembretes de prazos. Seus arquivos nunca saem da sua máquina — criptografia AES-256."
   }
 }

@@ -8,7 +8,7 @@
     "badge": "Now available for macOS",
     "headline1": "Your files.",
     "headline2": "Your AI. Your machine.",
-    "sub": "Local-first, AI-powered document management for immigration consultants, lawyers, and accountants. Zero cloud uploads. AES-256 encrypted.",
+    "sub": "Local-first, AI-powered document management for immigration consultants, lawyers, accountants — and every professional who runs on client files. Zero cloud uploads. AES-256 encrypted.",
     "download": "Download Filenest",
     "explore": "Explore features",
     "trust1": "Zero cloud uploads",
@@ -45,7 +45,7 @@
     "s4_body": "\"When does James's permit expire?\" Instead of opening five documents to find one answer, ask Filenest. It reads your files locally and answers immediately — with the source cited.",
     "s5_tag": "Built for Your Practice",
     "s5_headline": "Templates for every profession.",
-    "s5_body": "Immigration consultant, lawyer, accountant, real estate agent — Filenest ships with templates tailored to your workflow. The right required documents, the right fields, ready from day one."
+    "s5_body": "Immigration consultant, lawyer, accountant, real estate agent, study-abroad advisor, insurance broker — Filenest ships with templates tailored to your workflow. The right required documents, the right fields, ready from day one. And it's just as at home organizing your own visa, tax, and school papers."
   },
   "pricing": {
     "label": "Pricing",
@@ -107,6 +107,6 @@
   },
   "seo": {
     "title": "Filenest — Local-First Document Management with AI",
-    "description": "AI-powered document management for immigration consultants, lawyers, and accountants. Automatic OCR, smart filing, key-date reminders. Your files, your AI, your machine — zero cloud uploads, AES-256 encrypted."
+    "description": "AI-powered document management for immigration consultants, lawyers, accountants, study-abroad advisors, agents — and your own visa, tax, and school papers. Automatic OCR, smart filing, key-date reminders. Your files, your AI, your machine — zero cloud uploads, AES-256 encrypted."
   }
 }
