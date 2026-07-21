@@ -14,7 +14,7 @@
     "trust1": "零云端上传",
     "trust2": "AES-256 加密",
     "trust3": "本地 AI 推理",
-    "requirements": "需要搭载 Apple 芯片的 Mac,macOS 12 或更新版本 · Windows 版开发中"
+    "requirements": "需要搭载 Apple 芯片的 Mac、macOS 12 或更新版本 · Windows 版开发中"
   },
   "features": {
     "label": "核心功能",

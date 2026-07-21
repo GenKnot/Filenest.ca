@@ -36,19 +36,25 @@ export default function Hero() {
 
   return (
     <section className="relative isolate flex flex-col items-center overflow-hidden pt-32 pb-24 md:pt-44 md:pb-32 px-6">
-      {/* Ambient glow orbs — freely drifting */}
+      {/* Mobile-safe ambient glow: a plain radial gradient. iOS Safari
+          rasterizes huge blur() layers in tiles and clips them, which showed
+          as a hard horizontal seam mid-hero on phones — gradients never do. */}
+      <div aria-hidden className="hero-glow absolute inset-0 pointer-events-none" />
+
+      {/* Ambient glow orbs — freely drifting. Desktop-only: the blurred
+          layers are what iOS clips (see above). */}
       <motion.div
-        className="glow-orb bg-accent w-[600px] h-[600px] -top-40 left-1/2 -translate-x-1/2"
+        className="glow-orb hidden md:block bg-accent w-[600px] h-[600px] -top-40 left-1/2 -translate-x-1/2"
         animate={orb1}
         transition={{ duration: 18, ease: "easeInOut", repeat: Infinity, repeatType: "loop" }}
       />
       <motion.div
-        className="glow-orb bg-accent-secondary w-[400px] h-[400px] top-20 -right-40 opacity-20"
+        className="glow-orb hidden md:block bg-accent-secondary w-[400px] h-[400px] top-20 -right-40 opacity-20"
         animate={orb2}
         transition={{ duration: 22, ease: "easeInOut", repeat: Infinity, repeatType: "loop" }}
       />
       <motion.div
-        className="glow-orb bg-accent w-[350px] h-[350px] top-40 -left-32 opacity-20"
+        className="glow-orb hidden md:block bg-accent w-[350px] h-[350px] top-40 -left-32 opacity-20"
         animate={orb3}
         transition={{ duration: 16, ease: "easeInOut", repeat: Infinity, repeatType: "loop" }}
       />
