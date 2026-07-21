@@ -5,7 +5,7 @@
     "cta": "Obtener Filenest"
   },
   "hero": {
-    "badge": "Ya disponible para macOS",
+    "badge": "Disponible para Mac con chip de Apple",
     "headline1": "Tus archivos.",
     "headline2": "Tu IA. Tu máquina.",
     "sub": "Gestión de documentos local con IA, para consultores de inmigración, abogados, contadores — y todo profesional multitarea. Sin subidas a la nube. Cifrado AES-256.",
@@ -13,7 +13,8 @@
     "explore": "Ver funciones",
     "trust1": "Sin subidas a la nube",
     "trust2": "Cifrado AES-256",
-    "trust3": "IA local"
+    "trust3": "IA local",
+    "requirements": "Requiere un Mac con chip de Apple y macOS 12 o más reciente · Windows próximamente"
   },
   "features": {
     "label": "Funciones principales",
@@ -74,7 +75,7 @@
     "f_unlimited": "Documentos locales ilimitados",
     "f_ai": "Búsqueda y extracción con IA local",
     "f_enc": "Cifrado AES-256 en reposo",
-    "f_apps": "App para macOS (Windows próximamente)",
+    "f_apps": "Aplicación para macOS, chip de Apple (Windows próximamente)",
     "f_email": "Soporte por correo",
     "f_save": "Ahorra 17% vs mensual",
     "f_priority": "Soporte prioritario por correo",

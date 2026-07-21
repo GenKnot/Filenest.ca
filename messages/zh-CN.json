@@ -5,7 +5,7 @@
     "cta": "下载 Filenest"
   },
   "hero": {
-    "badge": "macOS 版现已推出",
+    "badge": "Apple 芯片 Mac 版现已推出",
     "headline1": "你的文件",
     "headline2": "你的 AI，你的电脑",
     "sub": "本地优先、AI 驱动的文档管理工具，为移民顾问、律师、会计师——以及所有多任务的专业人士设计。零云端上传，AES-256 加密。",
@@ -13,7 +13,8 @@
     "explore": "了解功能",
     "trust1": "零云端上传",
     "trust2": "AES-256 加密",
-    "trust3": "本地 AI 推理"
+    "trust3": "本地 AI 推理",
+    "requirements": "需要搭载 Apple 芯片的 Mac,macOS 12 或更新版本 · Windows 版开发中"
   },
   "features": {
     "label": "核心功能",
@@ -74,7 +75,7 @@
     "f_unlimited": "无限本地文档",
     "f_ai": "本地 AI 搜索与提取",
     "f_enc": "AES-256 静态加密",
-    "f_apps": "macOS 应用(Windows 版即将推出)",
+    "f_apps": "macOS 应用,需 Apple 芯片(Windows 版即将推出)",
     "f_email": "邮件支持",
     "f_save": "比月付节省 17%",
     "f_priority": "优先邮件支持",

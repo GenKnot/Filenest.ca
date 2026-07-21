@@ -5,7 +5,7 @@
     "cta": "다운로드"
   },
   "hero": {
-    "badge": "macOS용 출시",
+    "badge": "Apple Silicon Mac에서 이용 가능",
     "headline1": "내 파일",
     "headline2": "내 AI, 내 컴퓨터",
     "sub": "이민 컨설턴트, 변호사, 회계사 — 그리고 여러 업무를 동시에 처리하는 모든 전문가를 위한 로컬 우선 AI 문서 관리 도구. 클라우드 업로드 없음. AES-256 암호화.",
@@ -13,7 +13,8 @@
     "explore": "기능 살펴보기",
     "trust1": "클라우드 업로드 없음",
     "trust2": "AES-256 암호화",
-    "trust3": "로컬 AI"
+    "trust3": "로컬 AI",
+    "requirements": "Apple Silicon Mac과 macOS 12 이상이 필요합니다 · Windows 버전 개발 중"
   },
   "features": {
     "label": "핵심 기능",
@@ -74,7 +75,7 @@
     "f_unlimited": "무제한 로컬 문서",
     "f_ai": "로컬 AI 검색 및 추출",
     "f_enc": "AES-256 저장 암호화",
-    "f_apps": "macOS 앱 (Windows 출시 예정)",
+    "f_apps": "macOS 앱, Apple Silicon 필요 (Windows 버전 출시 예정)",
     "f_email": "이메일 지원",
     "f_save": "월간 대비 17% 절약",
     "f_priority": "우선 이메일 지원",

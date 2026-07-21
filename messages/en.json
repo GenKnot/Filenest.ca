@@ -5,7 +5,7 @@
     "cta": "Get Filenest"
   },
   "hero": {
-    "badge": "Now available for macOS",
+    "badge": "Now available for Mac with Apple silicon",
     "headline1": "Your files.",
     "headline2": "Your AI. Your machine.",
     "sub": "Local-first, AI-powered document management for immigration consultants, lawyers, accountants — and every multitasking professional. Zero cloud uploads. AES-256 encrypted.",
@@ -13,7 +13,8 @@
     "explore": "Explore features",
     "trust1": "Zero cloud uploads",
     "trust2": "AES-256 encrypted",
-    "trust3": "Local AI inference"
+    "trust3": "Local AI inference",
+    "requirements": "Requires a Mac with Apple silicon and macOS 12 or newer · Windows coming soon"
   },
   "features": {
     "label": "Core Features",
@@ -74,7 +75,7 @@
     "f_unlimited": "Unlimited local documents",
     "f_ai": "Local AI search & extraction",
     "f_enc": "AES-256 encryption at rest",
-    "f_apps": "macOS app (Windows coming soon)",
+    "f_apps": "macOS app, Apple silicon (Windows coming soon)",
     "f_email": "Email support",
     "f_save": "Save 17% vs monthly",
     "f_priority": "Priority email support",

@@ -5,7 +5,7 @@
     "cta": "下載 Filenest"
   },
   "hero": {
-    "badge": "macOS 版現已推出",
+    "badge": "Apple 晶片 Mac 版現已推出",
     "headline1": "你的文件",
     "headline2": "你的 AI，你的電腦",
     "sub": "本地優先、AI 驅動的文件管理工具，為移民顧問、律師、會計師——以及所有多工並行的專業人士設計。零雲端上傳，AES-256 加密。",
@@ -13,7 +13,8 @@
     "explore": "瞭解功能",
     "trust1": "零雲端上傳",
     "trust2": "AES-256 加密",
-    "trust3": "本地 AI 推理"
+    "trust3": "本地 AI 推理",
+    "requirements": "需要搭載 Apple 晶片的 Mac,macOS 12 或更新版本 · Windows 版開發中"
   },
   "features": {
     "label": "核心功能",
@@ -74,7 +75,7 @@
     "f_unlimited": "無限本地文件",
     "f_ai": "本地 AI 搜尋與提取",
     "f_enc": "AES-256 靜態加密",
-    "f_apps": "macOS 應用(Windows 版即將推出)",
+    "f_apps": "macOS 應用程式,需 Apple 晶片(Windows 版即將推出)",
     "f_email": "電郵支援",
     "f_save": "比月付節省 17%",
     "f_priority": "優先電郵支援",

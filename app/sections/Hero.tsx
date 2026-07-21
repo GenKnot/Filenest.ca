@@ -116,6 +116,18 @@ export default function Hero() {
           </a>
         </motion.div>
 
+        {/* System requirements — visible BEFORE the download click so Intel-Mac
+            users aren't left wondering why the app won't open. */}
+        <motion.p
+          custom={3}
+          variants={fadeUp}
+          initial="hidden"
+          animate="visible"
+          className="mt-4 text-xs text-foreground-dim"
+        >
+          {t("requirements")}
+        </motion.p>
+
         <motion.div
           custom={4}
           variants={fadeUp}
