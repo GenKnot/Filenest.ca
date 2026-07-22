@@ -107,7 +107,22 @@
     "effective": "Fecha de vigencia: junio 2026"
   },
   "seo": {
-    "title": "Filenest — Gestión documental local con IA",
+    "title": "Filenest — Gestión documental con IA local para Mac | OCR y archivado inteligente",
     "description": "Gestión documental con IA para consultores de inmigración, abogados, contadores, asesores de estudios en el extranjero, agentes — y sus propios papeles de visa, impuestos y estudios. OCR automático, archivado inteligente, recordatorios de vencimientos. Sus archivos nunca salen de su equipo — cifrado AES-256."
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "q1": "¿Filenest funciona sin conexión? ¿Mis archivos se suben a la nube?",
+    "a1": "Filenest es totalmente local: el OCR, el análisis con IA y el almacenamiento se ejecutan en tu Mac. Cero subidas a la nube — la única petición de red es la validación de licencia, sin datos de documentos. La aplicación funciona con normalidad sin conexión.",
+    "q2": "¿Cómo organiza la IA mis documentos?",
+    "a2": "Arrastra un archivo: el OCR integrado lo lee, la IA local clasifica el tipo de documento (pasaporte, extracto bancario, certificado de estudios…), extrae campos y fechas clave, lo archiva en el expediente del cliente correcto y crea recordatorios de vencimiento automáticamente.",
+    "q3": "¿Filenest sirve para consultores de inmigración, abogados y contadores?",
+    "a3": "Sí — está diseñado en torno a expedientes de clientes: archivos por cliente, listas de documentos requeridos con plantillas, recordatorios de fechas clave y detección de conflictos de datos. También organiza igual de bien tus propios papeles de visa, impuestos y estudios.",
+    "q4": "¿Qué Mac son compatibles?",
+    "a4": "Mac con chip de Apple y macOS 12 o más reciente. La versión para Windows está en desarrollo.",
+    "q5": "¿Cómo se protegen mis datos?",
+    "a5": "La base de datos está cifrada con AES-256 (SQLCipher) y solo se abre con tu clave; los archivos permanecen en la carpeta que elijas, con copias de seguridad locales verificadas. Nada sale nunca de tu equipo.",
+    "q6": "¿Hay prueba gratuita?",
+    "a6": "Sí. Descarga Filenest y empieza una prueba gratuita — sin cuenta ni tarjeta. Cuando quieras, elige el plan mensual, anual o vitalicio."
   }
 }

@@ -107,7 +107,22 @@
     "effective": "Effective date: June 2026"
   },
   "seo": {
-    "title": "Filenest — Local-First Document Management with AI",
+    "title": "Filenest — Local AI Document Management for Mac | OCR & Smart Filing",
     "description": "AI-powered document management for immigration consultants, lawyers, accountants, study-abroad advisors, agents — and your own visa, tax, and school papers. Automatic OCR, smart filing, key-date reminders. Your files, your AI, your machine — zero cloud uploads, AES-256 encrypted."
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "q1": "Does Filenest work offline? Is my data uploaded to the cloud?",
+    "a1": "Filenest is fully local: OCR, AI analysis and storage all run on your Mac. Zero cloud uploads — the only network request is license validation, and it carries no document data. The app works as usual while offline.",
+    "q2": "How does the AI organize my documents?",
+    "a2": "Drop in a file and the built-in OCR reads it, the local AI classifies the document type (passport, bank statement, enrollment letter…), extracts key fields and dates, files it into the right client archive, and sets expiry reminders automatically.",
+    "q3": "Is Filenest built for immigration consultants, lawyers and accountants?",
+    "a3": "Yes — it's designed around client files: per-client archives, required-document checklists from templates, key-date reminders and data-conflict detection. It's just as at home organizing your own visa, tax and school papers.",
+    "q4": "Which Macs does Filenest support?",
+    "a4": "Macs with Apple silicon running macOS 12 or newer. A Windows version is in development.",
+    "q5": "How is my data protected?",
+    "a5": "Your library database is encrypted with AES-256 (SQLCipher) and can only be opened with your key. Files stay in a folder you choose, with verified local backups. Nothing ever leaves your machine.",
+    "q6": "Is there a free trial?",
+    "a6": "Yes. Download Filenest and start a free trial — no account or credit card needed. When you're ready, pick monthly, annual or lifetime."
   }
 }

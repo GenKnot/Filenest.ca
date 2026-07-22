@@ -3,6 +3,7 @@ import Hero from "../sections/Hero";
 import Features from "../sections/Features";
 import Showcase from "../sections/Showcase";
 import Pricing from "../sections/Pricing";
+import Faq from "../sections/Faq";
 import Footer from "../sections/Footer";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
         <Features />
         <Showcase />
         <Pricing />
+        <Faq />
       </main>
       <Footer />
     </>

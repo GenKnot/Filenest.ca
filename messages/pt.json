@@ -107,7 +107,22 @@
     "effective": "Data de vigência: junho 2026"
   },
   "seo": {
-    "title": "Filenest — Gestão de documentos local com IA",
+    "title": "Filenest — Gestão de documentos com IA local para Mac | OCR e arquivamento inteligente",
     "description": "Gestão de documentos com IA para consultores de imigração, advogados, contadores, consultores de intercâmbio, corretores — e seus próprios documentos de visto, impostos e estudos. OCR automático, arquivamento inteligente, lembretes de prazos. Seus arquivos nunca saem da sua máquina — criptografia AES-256."
+  },
+  "faq": {
+    "title": "Perguntas frequentes",
+    "q1": "O Filenest funciona offline? Meus arquivos são enviados para a nuvem?",
+    "a1": "O Filenest é totalmente local: OCR, análise de IA e armazenamento rodam no seu Mac. Zero envios para a nuvem — a única requisição de rede é a validação da licença, sem nenhum dado de documento. O aplicativo funciona normalmente offline.",
+    "q2": "Como a IA organiza meus documentos?",
+    "a2": "Arraste um arquivo: o OCR integrado o lê, a IA local classifica o tipo de documento (passaporte, extrato bancário, declaração de matrícula…), extrai campos e datas importantes, arquiva no dossiê do cliente certo e cria lembretes de vencimento automaticamente.",
+    "q3": "O Filenest serve para consultores de imigração, advogados e contadores?",
+    "a3": "Sim — ele é projetado em torno de arquivos de clientes: dossiês por cliente, listas de documentos obrigatórios com modelos, lembretes de datas-chave e detecção de conflitos de dados. Também organiza muito bem seus próprios documentos de visto, impostos e estudos.",
+    "q4": "Quais Macs são compatíveis?",
+    "a4": "Macs com chip da Apple e macOS 12 ou superior. A versão para Windows está em desenvolvimento.",
+    "q5": "Como meus dados são protegidos?",
+    "a5": "O banco de dados é criptografado com AES-256 (SQLCipher) e só abre com a sua chave; os arquivos ficam na pasta que você escolher, com backups locais verificados. Nada sai da sua máquina.",
+    "q6": "Existe teste grátis?",
+    "a6": "Sim. Baixe o Filenest e comece um teste grátis — sem conta nem cartão. Depois, escolha o plano mensal, anual ou vitalício."
   }
 }

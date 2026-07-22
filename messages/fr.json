@@ -107,7 +107,22 @@
     "effective": "Date d'effet : juin 2026"
   },
   "seo": {
-    "title": "Filenest — Gestion documentaire locale avec IA",
+    "title": "Filenest — Gestion documentaire IA locale pour Mac | OCR et classement intelligent",
     "description": "Gestion documentaire IA pour consultants en immigration, avocats, comptables, conseillers en études à l'étranger, agents — et vos propres papiers de visa, d'impôts et d'études. OCR automatique, classement intelligent, rappels d'échéances. Vos fichiers restent sur votre machine — zéro cloud, chiffrement AES-256."
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "q1": "Filenest fonctionne-t-il hors ligne ? Mes fichiers sont-ils envoyés dans le cloud ?",
+    "a1": "Filenest est entièrement local : OCR, analyse IA et stockage s'exécutent sur votre Mac. Zéro transfert cloud — la seule requête réseau est la validation de licence, sans aucune donnée documentaire. L'application fonctionne normalement hors ligne.",
+    "q2": "Comment l'IA organise-t-elle mes documents ?",
+    "a2": "Déposez un fichier : l'OCR intégré le lit, l'IA locale identifie le type de document (passeport, relevé bancaire, attestation de scolarité…), extrait les champs et dates clés, le classe dans le bon dossier client et crée automatiquement des rappels d'échéance.",
+    "q3": "Filenest convient-il aux consultants en immigration, avocats et comptables ?",
+    "a3": "Oui — il est conçu autour des dossiers clients : archives par client, listes de pièces requises à partir de modèles, rappels de dates clés et détection de conflits de données. Il organise tout aussi bien vos propres papiers de visa, d'impôts et d'études.",
+    "q4": "Quels Mac sont pris en charge ?",
+    "a4": "Les Mac avec puce Apple sous macOS 12 ou plus récent. Une version Windows est en développement.",
+    "q5": "Comment mes données sont-elles protégées ?",
+    "a5": "La base de données est chiffrée en AES-256 (SQLCipher) et ne s'ouvre qu'avec votre clé ; les fichiers restent dans le dossier de votre choix, avec des sauvegardes locales vérifiées. Rien ne quitte jamais votre machine.",
+    "q6": "Y a-t-il un essai gratuit ?",
+    "a6": "Oui. Téléchargez Filenest et commencez un essai gratuit — sans compte ni carte bancaire. Ensuite, choisissez la formule mensuelle, annuelle ou à vie."
   }
 }
