@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useTranslations } from "../../lib/i18n";
+import { useLocale, useTranslations } from "../../lib/i18n";
 
 function GithubIcon({ size = 18 }: { size?: number }) {
   return (
@@ -22,6 +22,7 @@ function XIcon({ size = 18 }: { size?: number }) {
 
 export default function Footer() {
   const t = useTranslations("footer");
+  const locale = useLocale();
 
   return (
     <footer className="border-t border-border-subtle px-6 py-12 md:py-16">
@@ -49,7 +50,12 @@ export default function Footer() {
           </a>
         </div>
 
-        <div className="flex items-center gap-6 text-xs text-foreground-dim">
+        <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs text-foreground-dim">
+          {/* Internal links to the profession pages (tier-2 SEO): keeps them
+              crawlable from every page instead of orphaned. */}
+          <Link href={`/${locale}/for/immigration-consultants`} className="hover:text-foreground transition-colors">{t("for_ic")}</Link>
+          <Link href={`/${locale}/for/lawyers`} className="hover:text-foreground transition-colors">{t("for_law")}</Link>
+          <Link href={`/${locale}/for/accountants`} className="hover:text-foreground transition-colors">{t("for_acc")}</Link>
           <Link href="/privacy" className="hover:text-foreground transition-colors">{t("privacy")}</Link>
           <Link href="/terms" className="hover:text-foreground transition-colors">{t("terms")}</Link>
           <Link href="/refund" className="hover:text-foreground transition-colors">{t("refund")}</Link>

@@ -92,7 +92,10 @@
     "terms": "Termos",
     "refund": "Reembolso",
     "contact": "Contato",
-    "copyright": "Todos os direitos reservados."
+    "copyright": "Todos os direitos reservados.",
+    "for_ic": "Para consultores de imigração",
+    "for_law": "Para advogados",
+    "for_acc": "Para contadores"
   },
   "privacy": {
     "title": "Política de privacidade",
@@ -113,16 +116,64 @@
   "faq": {
     "title": "Perguntas frequentes",
     "q1": "O Filenest funciona offline? Meus arquivos são enviados para a nuvem?",
-    "a1": "O Filenest é totalmente local: OCR, análise de IA e armazenamento rodam no seu Mac. Zero envios para a nuvem — a única requisição de rede é a validação da licença, sem nenhum dado de documento. O aplicativo funciona normalmente offline.",
-    "q2": "Como a IA organiza meus documentos?",
-    "a2": "Arraste um arquivo: o OCR integrado o lê, a IA local classifica o tipo de documento (passaporte, extrato bancário, declaração de matrícula…), extrai campos e datas importantes, arquiva no dossiê do cliente certo e cria lembretes de vencimento automaticamente.",
-    "q3": "O Filenest serve para consultores de imigração, advogados e contadores?",
-    "a3": "Sim — ele é projetado em torno de arquivos de clientes: dossiês por cliente, listas de documentos obrigatórios com modelos, lembretes de datas-chave e detecção de conflitos de dados. Também organiza muito bem seus próprios documentos de visto, impostos e estudos.",
+    "a1": "O Filenest é totalmente local: OCR, análise de IA e armazenamento rodam no seu Mac. Zero envios para a nuvem. A única requisição de rede é a validação da licença, sem nenhum dado de documento. O aplicativo funciona normalmente offline.",
+    "q2": "O que o Filenest faz por mim, na prática?",
+    "a2": "Pense nele como um assistente particular com memória perfeita. Solte seus arquivos e ele os lê, arquiva sob o cliente certo e avisa antes de cada vencimento. Meses depois, basta perguntar o que dizia aquele documento que você entregou, e ele encontra o arquivo e responde.",
+    "q3": "Para quem é o Filenest?",
+    "a3": "Para consultores de imigração, advogados, contadores e todo profissional multitarefa. A ideia nasceu de um momento real: com vários trabalhos ao mesmo tempo, o criador foi questionado sobre um documento entregue seis meses antes e perdeu horas procurando. Ficou um pensamento: e se eu pudesse simplesmente pedir esse arquivo a um assistente? O Filenest é esse assistente. Quanto mais você equilibra, mais precisa dele.",
     "q4": "Quais Macs são compatíveis?",
     "a4": "Macs com chip da Apple e macOS 12 ou superior. A versão para Windows está em desenvolvimento.",
     "q5": "Como meus dados são protegidos?",
     "a5": "O banco de dados é criptografado com AES-256 (SQLCipher) e só abre com a sua chave; os arquivos ficam na pasta que você escolher, com backups locais verificados. Nada sai da sua máquina.",
     "q6": "Existe teste grátis?",
-    "a6": "Sim. Baixe o Filenest e comece um teste grátis — sem conta nem cartão. Depois, escolha o plano mensal, anual ou vitalício."
+    "a6": "Sim. Baixe o Filenest e comece um teste grátis. Sem conta nem cartão. Depois, escolha o plano mensal, anual ou vitalício."
+  },
+  "useCases": {
+    "see_pricing": "Ver preços",
+    "immigration-consultants": {
+      "metaTitle": "Software de gestão de documentos para consultores de imigração | Filenest",
+      "metaDesc": "Organize os arquivos de imigração dos seus clientes com IA local: OCR e arquivamento automáticos, listas de documentos obrigatórios, lembretes de vencimento de vistos. Sem nuvem: os dados ficam no seu Mac.",
+      "h1": "Gestão de documentos feita para consultores de imigração",
+      "intro": "Cada caso é uma montanha de passaportes, vistos, cartas e formulários. Cada um com o seu prazo. O Filenest lê cada arquivo com IA local, arquiva sob o cliente certo e mantém a lista de documentos e as datas-chave à vista.",
+      "b1t": "Dossiês por cliente com listas de documentos",
+      "b1d": "Modelos definem o que um visto de estudo ou residência exige. Cada upload é classificado e marcado automaticamente: você sempre vê o que falta.",
+      "b2t": "Nenhum visto vence sem aviso",
+      "b2d": "Vistos de estudo e trabalho: as datas de vencimento são extraídas e viram lembretes automaticamente.",
+      "b3t": "Encontre qualquer documento em segundos",
+      "b3d": "O OCR torna cada digitalização pesquisável, até fotos de passaportes. Pesquise pelo conteúdo, não apenas pelo nome do arquivo.",
+      "b4t": "Confidencial por arquitetura",
+      "b4d": "Dados pessoais nunca saem da sua máquina: OCR e IA rodam localmente e o banco é criptografado com AES-256.",
+      "cta": "Experimente o Filenest grátis e veja seus dossiês se organizarem sozinhos."
+    },
+    "lawyers": {
+      "metaTitle": "Software de gestão de documentos jurídicos para advogados | Filenest",
+      "metaDesc": "Gerencie processos com IA local: OCR automático, arquivamento por cliente, lembretes de prazos e busca em texto completo. Documentos sigilosos nunca saem do seu Mac.",
+      "h1": "Gestão de documentos que respeita o sigilo profissional",
+      "intro": "Contratos, ofícios, provas, documentos de identidade. Os processos crescem rápido. O Filenest lê, classifica e arquiva cada documento sob o cliente certo, e tudo fica na sua máquina.",
+      "b1t": "Arquivos centrados no processo",
+      "b1d": "Um dossiê por cliente ou caso, com listas de documentos obrigatórios e registro completo de atividades. Quem fez o quê, quando.",
+      "b2t": "Prazos que aparecem sozinhos",
+      "b2d": "Datas-chave são extraídas dos documentos e viram lembretes; uma linha do tempo mostra o histórico de cada caso.",
+      "b3t": "Busca em texto completo em cada digitalização",
+      "b3d": "OCR e busca semântica encontram qualquer cláusula, nome ou valor dentro de documentos digitalizados. Em vários idiomas.",
+      "b4t": "Confidencialidade à altura do sigilo",
+      "b4d": "O processamento de IA acontece inteiramente no seu Mac e o banco é criptografado com AES-256. Sem nuvem, sem terceiros.",
+      "cta": "Experimente o Filenest grátis. Seus processos, organizados e sigilosos."
+    },
+    "accountants": {
+      "metaTitle": "Software de gestão de documentos para contadores | Filenest",
+      "metaDesc": "Dome o papel da temporada de impostos com IA local: OCR automático de recibos e extratos, arquivamento por cliente, lembretes de prazos. As finanças dos clientes ficam no seu Mac.",
+      "h1": "O papel da temporada de impostos, organizado por IA local",
+      "intro": "Recibos, notas, extratos bancários, avisos. Todo cliente chega com uma caixa de sapatos. O Filenest lê cada documento, extrai valores e datas, e arquiva automaticamente sob o cliente certo.",
+      "b1t": "Ordem por cliente e por exercício",
+      "b1d": "Dossiês de clientes com checklists de comprovantes, recibos e extratos. Veja na hora qual arquivo está completo.",
+      "b2t": "Valores e datas extraídos para você",
+      "b2d": "Números e prazos importantes são extraídos de cada documento; inconsistências entre arquivos do mesmo cliente são sinalizadas a tempo.",
+      "b3t": "Todo extrato é pesquisável",
+      "b3d": "Encontre qualquer nota, valor ou aviso pelo conteúdo em segundos. O OCR torna pesquisável até papel digitalizado.",
+      "b4t": "As finanças não saem do escritório",
+      "b4d": "Todo o processamento é local e o banco é criptografado com AES-256. As finanças dos clientes nunca tocam um servidor na nuvem.",
+      "cta": "Experimente o Filenest grátis antes da próxima temporada de declarações."
+    }
   }
 }

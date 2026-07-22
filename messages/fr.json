@@ -92,7 +92,10 @@
     "terms": "Conditions",
     "refund": "Remboursement",
     "contact": "Contact",
-    "copyright": "Tous droits réservés."
+    "copyright": "Tous droits réservés.",
+    "for_ic": "Pour consultants en immigration",
+    "for_law": "Pour avocats",
+    "for_acc": "Pour comptables"
   },
   "privacy": {
     "title": "Politique de confidentialité",
@@ -113,16 +116,64 @@
   "faq": {
     "title": "Questions fréquentes",
     "q1": "Filenest fonctionne-t-il hors ligne ? Mes fichiers sont-ils envoyés dans le cloud ?",
-    "a1": "Filenest est entièrement local : OCR, analyse IA et stockage s'exécutent sur votre Mac. Zéro transfert cloud — la seule requête réseau est la validation de licence, sans aucune donnée documentaire. L'application fonctionne normalement hors ligne.",
-    "q2": "Comment l'IA organise-t-elle mes documents ?",
-    "a2": "Déposez un fichier : l'OCR intégré le lit, l'IA locale identifie le type de document (passeport, relevé bancaire, attestation de scolarité…), extrait les champs et dates clés, le classe dans le bon dossier client et crée automatiquement des rappels d'échéance.",
-    "q3": "Filenest convient-il aux consultants en immigration, avocats et comptables ?",
-    "a3": "Oui — il est conçu autour des dossiers clients : archives par client, listes de pièces requises à partir de modèles, rappels de dates clés et détection de conflits de données. Il organise tout aussi bien vos propres papiers de visa, d'impôts et d'études.",
+    "a1": "Filenest est entièrement local : OCR, analyse IA et stockage s'exécutent sur votre Mac. Zéro transfert cloud. La seule requête réseau est la validation de licence, sans aucune donnée documentaire. L'application fonctionne normalement hors ligne.",
+    "q2": "Que fait Filenest pour moi, concrètement ?",
+    "a2": "Voyez-le comme un assistant privé à la mémoire parfaite. Déposez vos fichiers, il les lit, les classe sous le bon client et vous prévient avant chaque échéance. Des mois plus tard, demandez simplement ce que contenait tel document remis à telle entreprise, il retrouve le fichier et vous répond.",
+    "q3": "À qui s'adresse Filenest ?",
+    "a3": "Aux consultants en immigration, avocats, comptables et à tous les professionnels qui mènent plusieurs dossiers de front. L'idée vient d'un moment vécu : en jonglant entre plusieurs emplois, son créateur s'est vu demander un document remis six mois plus tôt et a perdu des heures à le retrouver. Une pensée est restée : et si je pouvais simplement demander ce fichier à un assistant ? Filenest est cet assistant. Plus vous jonglez, plus il vous est utile.",
     "q4": "Quels Mac sont pris en charge ?",
     "a4": "Les Mac avec puce Apple sous macOS 12 ou plus récent. Une version Windows est en développement.",
     "q5": "Comment mes données sont-elles protégées ?",
     "a5": "La base de données est chiffrée en AES-256 (SQLCipher) et ne s'ouvre qu'avec votre clé ; les fichiers restent dans le dossier de votre choix, avec des sauvegardes locales vérifiées. Rien ne quitte jamais votre machine.",
     "q6": "Y a-t-il un essai gratuit ?",
-    "a6": "Oui. Téléchargez Filenest et commencez un essai gratuit — sans compte ni carte bancaire. Ensuite, choisissez la formule mensuelle, annuelle ou à vie."
+    "a6": "Oui. Téléchargez Filenest et commencez un essai gratuit. Sans compte ni carte bancaire. Ensuite, choisissez la formule mensuelle, annuelle ou à vie."
+  },
+  "useCases": {
+    "see_pricing": "Voir les tarifs",
+    "immigration-consultants": {
+      "metaTitle": "Logiciel de gestion documentaire pour consultants en immigration | Filenest",
+      "metaDesc": "Organisez les dossiers d'immigration de vos clients avec une IA locale : OCR et classement automatiques, listes de pièces requises, rappels d'expiration de permis. Zéro cloud. Les données restent sur votre Mac.",
+      "h1": "La gestion documentaire pensée pour les consultants en immigration",
+      "intro": "Chaque dossier est une montagne de passeports, permis, lettres et formulaires. Chacun avec sa propre échéance. Filenest lit chaque fichier avec une IA locale, le classe sous le bon client et garde la liste des pièces et les dates clés sous vos yeux.",
+      "b1t": "Des dossiers par client avec listes de pièces",
+      "b1d": "Les modèles définissent ce qu'exige un permis d'études ou une RP. Chaque dépôt est classé et coché automatiquement : vous voyez toujours ce qui manque.",
+      "b2t": "Plus aucune expiration de permis manquée",
+      "b2d": "Permis d'études, permis de travail, visas. Les dates d'expiration sont extraites et transformées en rappels automatiquement.",
+      "b3t": "Retrouvez n'importe quel document en secondes",
+      "b3d": "L'OCR rend chaque numérisation cherchable, même les photos de passeports. Cherchez en français, anglais ou chinois, par contenu et non par nom de fichier.",
+      "b4t": "Confidentiel par architecture",
+      "b4d": "Les données personnelles des clients ne quittent jamais votre machine : OCR et IA s'exécutent localement, base chiffrée en AES-256. Pas de compte cloud à compromettre.",
+      "cta": "Essayez Filenest gratuitement et regardez vos dossiers s'organiser d'eux-mêmes."
+    },
+    "lawyers": {
+      "metaTitle": "Logiciel de gestion documentaire juridique pour avocats | Filenest",
+      "metaDesc": "Gérez vos dossiers avec une IA locale : OCR automatique, classement par client, rappels d'échéances et recherche plein texte. Les documents privilégiés ne quittent jamais votre Mac.",
+      "h1": "Une gestion documentaire qui respecte le secret professionnel",
+      "intro": "Contrats, courriers de tribunaux, preuves, pièces d'identité. Les dossiers grossissent vite. Filenest lit, classe et range chaque document sous le bon client, et tout reste sur votre machine.",
+      "b1t": "Des archives centrées sur le dossier",
+      "b1d": "Une archive par client ou par affaire, avec listes de pièces requises et journal d'activité complet. Qui a fait quoi, quand.",
+      "b2t": "Des échéances qui remontent d'elles-mêmes",
+      "b2d": "Les dates clés sont extraites des documents et deviennent des rappels ; une chronologie montre l'historique de chaque affaire d'un coup d'œil.",
+      "b3t": "Recherche plein texte dans chaque numérisation",
+      "b3d": "OCR et recherche sémantique retrouvent toute clause, nom ou chiffre dans les documents numérisés. En plusieurs langues.",
+      "b4t": "Une confidentialité digne du secret professionnel",
+      "b4d": "Le traitement IA se fait entièrement sur votre Mac et la base est chiffrée en AES-256. Aucun prestataire cloud, aucun tiers dans la chaîne.",
+      "cta": "Essayez Filenest gratuitement. Vos dossiers, organisés et confidentiels."
+    },
+    "accountants": {
+      "metaTitle": "Logiciel de gestion documentaire pour comptables | Filenest",
+      "metaDesc": "Domptez le papier de la saison des impôts avec une IA locale : OCR automatique des reçus et relevés, classement par client, rappels d'échéances. Les données financières restent sur votre Mac.",
+      "h1": "Le papier de la saison des impôts, rangé par une IA locale",
+      "intro": "Reçus, factures, relevés bancaires, avis. Chaque client arrive avec sa boîte à chaussures. Filenest lit chaque document, extrait montants et dates, et le classe automatiquement sous le bon client.",
+      "b1t": "De l'ordre par client et par exercice",
+      "b1d": "Des dossiers clients avec listes de contrôle pour feuillets, reçus et relevés. Voyez instantanément quel dossier est complet.",
+      "b2t": "Montants et dates extraits pour vous",
+      "b2d": "Les chiffres clés et échéances sont extraits de chaque document ; les incohérences entre fichiers d'un même client sont signalées à temps.",
+      "b3t": "Chaque relevé est cherchable",
+      "b3d": "Retrouvez toute facture, tout chiffre ou avis par son contenu en quelques secondes. L'OCR rend même le papier numérisé cherchable.",
+      "b4t": "Les finances ne quittent pas le cabinet",
+      "b4d": "Tout le traitement est local et la base chiffrée en AES-256. Les données financières des clients ne touchent jamais un serveur cloud.",
+      "cta": "Essayez Filenest gratuitement avant la prochaine saison de déclarations."
+    }
   }
 }

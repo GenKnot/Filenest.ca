@@ -92,7 +92,10 @@
     "terms": "Terms",
     "refund": "Refund",
     "contact": "Contact",
-    "copyright": "All rights reserved."
+    "copyright": "All rights reserved.",
+    "for_ic": "For immigration consultants",
+    "for_law": "For lawyers",
+    "for_acc": "For accountants"
   },
   "privacy": {
     "title": "Privacy Policy",
@@ -113,16 +116,64 @@
   "faq": {
     "title": "Frequently asked questions",
     "q1": "Does Filenest work offline? Is my data uploaded to the cloud?",
-    "a1": "Filenest is fully local: OCR, AI analysis and storage all run on your Mac. Zero cloud uploads — the only network request is license validation, and it carries no document data. The app works as usual while offline.",
-    "q2": "How does the AI organize my documents?",
-    "a2": "Drop in a file and the built-in OCR reads it, the local AI classifies the document type (passport, bank statement, enrollment letter…), extracts key fields and dates, files it into the right client archive, and sets expiry reminders automatically.",
-    "q3": "Is Filenest built for immigration consultants, lawyers and accountants?",
-    "a3": "Yes — it's designed around client files: per-client archives, required-document checklists from templates, key-date reminders and data-conflict detection. It's just as at home organizing your own visa, tax and school papers.",
+    "a1": "Filenest is fully local: OCR, AI analysis and storage all run on your Mac. Zero cloud uploads. The only network request is license validation, and it carries no document data. The app works as usual while offline.",
+    "q2": "What does Filenest actually do for me?",
+    "a2": "Think of it as a private assistant with a perfect memory. Drop files in and it reads them, files them under the right client, and reminds you before anything expires. Months later you can simply ask what was in the file you handed over, and it finds the document and gives you the answer.",
+    "q3": "Who is Filenest for?",
+    "a3": "It's built for immigration consultants, lawyers, accountants, and every multitasking professional. The idea came from a real moment: juggling several jobs, the creator was asked about a document submitted to a company six months earlier, and lost hours digging for it. One thought stuck: what if I could just ask an assistant to hand me that company's file? Filenest is that assistant. The more you juggle, the more you need it.",
     "q4": "Which Macs does Filenest support?",
     "a4": "Macs with Apple silicon running macOS 12 or newer. A Windows version is in development.",
     "q5": "How is my data protected?",
     "a5": "Your library database is encrypted with AES-256 (SQLCipher) and can only be opened with your key. Files stay in a folder you choose, with verified local backups. Nothing ever leaves your machine.",
     "q6": "Is there a free trial?",
-    "a6": "Yes. Download Filenest and start a free trial — no account or credit card needed. When you're ready, pick monthly, annual or lifetime."
+    "a6": "Yes. Download Filenest and start a free trial. No account or credit card needed. When you're ready, pick monthly, annual or lifetime."
+  },
+  "useCases": {
+    "see_pricing": "See pricing",
+    "immigration-consultants": {
+      "metaTitle": "Document Management Software for Immigration Consultants | Filenest",
+      "metaDesc": "Organize client immigration files with local AI: automatic OCR and filing, required-document checklists, permit expiry reminders. No cloud. Client data stays on your Mac.",
+      "h1": "Document management built for immigration consultants",
+      "intro": "Every case is a mountain of passports, permits, letters and forms. Each with its own deadline. Filenest reads every file with local AI, files it under the right client, and keeps the checklist and key dates in front of you.",
+      "b1t": "Per-client archives with material checklists",
+      "b1d": "Templates define what a study-permit or PR case needs. Every upload is classified and ticked off automatically, so you always see what's still missing.",
+      "b2t": "Never miss a permit expiry",
+      "b2d": "Study permits, work permits, visas. Expiry dates are extracted automatically and turned into reminders, so renewals never sneak up on you or your clients.",
+      "b3t": "Find any document in seconds",
+      "b3d": "OCR makes every scan searchable, even photos of passports. Search in English, French or Chinese and find files by their content, not just the filename.",
+      "b4t": "Confidential by architecture",
+      "b4d": "Client PII never leaves your machine: OCR and AI run locally and the database is AES-256 encrypted. There is no cloud account to breach.",
+      "cta": "Try Filenest free and watch your case files organize themselves."
+    },
+    "lawyers": {
+      "metaTitle": "Legal Document Management Software for Lawyers | Filenest",
+      "metaDesc": "Manage matter files with local AI: automatic OCR, smart filing by client, key-date reminders and full-text search. Privileged documents never leave your Mac.",
+      "h1": "Document management that respects privilege",
+      "intro": "Contracts, court letters, evidence, IDs. Matter files grow fast. Filenest reads, classifies and files each document under the right client, while everything stays on your machine.",
+      "b1t": "Matter-centric archives",
+      "b1d": "One archive per client or matter, with required-document checklists and a full activity log of every change. Who did what, when.",
+      "b2t": "Deadlines that surface themselves",
+      "b2d": "Key dates are extracted from documents and become reminders automatically; a timeline view shows every matter's history at a glance.",
+      "b3t": "Full-text search across every scan",
+      "b3d": "OCR plus semantic search finds any clause, name or figure inside scanned documents. In multiple languages.",
+      "b4t": "Privilege-grade confidentiality",
+      "b4d": "AI processing happens entirely on your Mac and the library is AES-256 encrypted. No cloud processor, no third party in the chain of custody.",
+      "cta": "Try Filenest free. Your matter files, organized and confidential."
+    },
+    "accountants": {
+      "metaTitle": "Document Management Software for Accountants | Filenest",
+      "metaDesc": "Tame tax-season paper with local AI: automatic OCR of receipts and statements, per-client filing, deadline reminders. Client financials stay on your Mac.",
+      "h1": "Tax-season paper, organized by local AI",
+      "intro": "Receipts, invoices, bank statements, notices. Every client brings a shoebox. Filenest reads each document, extracts amounts and dates, and files it under the right client automatically.",
+      "b1t": "Per-client, per-season order",
+      "b1d": "Client archives with checklists for slips, receipts and statements. See instantly whose file is complete and whose is still missing pieces.",
+      "b2t": "Amounts and dates extracted for you",
+      "b2d": "Key figures and due dates are pulled from every document; inconsistent data across a client's files gets flagged before it becomes a problem.",
+      "b3t": "Every statement searchable",
+      "b3d": "Find any invoice, figure or notice by its content in seconds. OCR makes even scanned paper fully searchable.",
+      "b4t": "Financials never leave the office",
+      "b4d": "All processing is local and the database is AES-256 encrypted. Client financials never touch a cloud server.",
+      "cta": "Try Filenest free before the next filing season."
+    }
   }
 }
