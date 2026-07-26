@@ -48,6 +48,16 @@
     "s5_headline": "每個職業都有對應範本。",
     "s5_body": "移民顧問、律師、會計師、房產經紀、留學顧問、保險經紀——Filenest 內建與你工作流程相符的範本，必要文件和欄位開箱即用。管理自己的簽證、稅務、學籍文件，同樣得心應手。"
   },
+  "themeShowcase": {
+    "label": "為你的 Mac 而生",
+    "heading": "無論白天黑夜，都舒適耐看。",
+    "body": "選擇最適合你工作環境的介面。Filenest 完整支援淺色與深色模式，也可以自動跟隨系統。",
+    "controlLabel": "選擇介面主題",
+    "light": "淺色",
+    "dark": "深色",
+    "lightAlt": "Filenest 淺色模式封存介面",
+    "darkAlt": "Filenest 深色模式封存介面"
+  },
   "pricing": {
     "label": "定價",
     "heading": "簡單透明的定價",

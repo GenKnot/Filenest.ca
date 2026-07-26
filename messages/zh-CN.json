@@ -48,6 +48,16 @@
     "s5_headline": "每个职业都有对应模板。",
     "s5_body": "移民顾问、律师、会计师、房产经纪、留学顾问、保险经纪——Filenest 内置与你工作流程匹配的模板，必要文件和字段开箱即用。管理自己的签证、税务、学籍文件，同样得心应手。"
   },
+  "themeShowcase": {
+    "label": "为你的 Mac 而生",
+    "heading": "无论白天黑夜，都舒适耐看。",
+    "body": "选择最适合你工作环境的界面。Filenest 完整支持浅色与深色模式，也可以自动跟随系统。",
+    "controlLabel": "选择界面主题",
+    "light": "浅色",
+    "dark": "深色",
+    "lightAlt": "Filenest 浅色模式归档界面",
+    "darkAlt": "Filenest 深色模式归档界面"
+  },
   "pricing": {
     "label": "定价",
     "heading": "简单透明的定价",

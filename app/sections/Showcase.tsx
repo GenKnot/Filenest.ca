@@ -6,11 +6,26 @@ import Image from "next/image";
 import { useTranslations } from "../../lib/i18n";
 
 const screenshots = [
-  { src: "/ss-5.png", alt: "Filenest archive — document list with AI summaries and tags" },
-  { src: "/ss-7.png", alt: "Filenest AI Chat running locally" },
-  { src: "/ss-4.png", alt: "Filenest AI field extraction with review" },
-  { src: "/ss-6.png", alt: "Filenest AI Chat answering document questions" },
-  { src: "/ss-2.png", alt: "Filenest New Archive — templates for every profession" },
+  {
+    src: "/screenshots/archive-document-list.png",
+    alt: "Filenest archive with AI summaries, document types, and extracted tags",
+  },
+  {
+    src: "/screenshots/settings-local-ai.png",
+    alt: "Filenest local AI settings with offline model controls",
+  },
+  {
+    src: "/screenshots/document-preview.png",
+    alt: "Filenest document preview with extracted fields ready for review",
+  },
+  {
+    src: "/screenshots/ai-chat-light.png",
+    alt: "Filenest AI Chat answering questions with cited local document sources",
+  },
+  {
+    src: "/screenshots/settings-archive-templates-top.png",
+    alt: "Filenest archive templates for different professional workflows",
+  },
 ];
 
 function ShowcaseItem({
@@ -124,7 +139,7 @@ export default function Showcase() {
               <div className="absolute inset-0 -z-10 blur-[80px] opacity-20 bg-accent rounded-full scale-75" />
               <div className="relative rounded-2xl border border-border-subtle overflow-hidden shadow-2xl shadow-black/50">
                 <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-accent/50 to-transparent z-10" />
-                <div className="relative" style={{ height: "500px" }}>
+                <div className="relative" style={{ aspectRatio: "87/57" }}>
                   <AnimatePresence mode="sync">
                     <motion.div
                       key={activeIndex}
@@ -138,7 +153,7 @@ export default function Showcase() {
                         src={items[activeIndex].screenshot}
                         alt={items[activeIndex].alt}
                         fill
-                        className="object-cover object-top"
+                        className="object-contain"
                         sizes="(max-width: 1280px) 55vw, 640px"
                       />
                     </motion.div>

@@ -48,6 +48,16 @@
     "s5_headline": "Templates for every profession.",
     "s5_body": "Immigration consultant, lawyer, accountant, real estate agent, study-abroad advisor, insurance broker — Filenest ships with templates tailored to your workflow. The right required documents, the right fields, ready from day one. And it's just as at home organizing your own visa, tax, and school papers."
   },
+  "themeShowcase": {
+    "label": "Made for Your Mac",
+    "heading": "Easy on the eyes, day or night.",
+    "body": "Choose the look that fits your workspace. Filenest feels at home in both light and dark mode, and can follow your system automatically.",
+    "controlLabel": "Choose interface theme",
+    "light": "Light",
+    "dark": "Dark",
+    "lightAlt": "Filenest archive interface in light mode",
+    "darkAlt": "Filenest archive interface in dark mode"
+  },
   "pricing": {
     "label": "Pricing",
     "heading": "Simple, transparent pricing",

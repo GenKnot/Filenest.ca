@@ -48,6 +48,16 @@
     "s5_headline": "Plantillas para cada profesión.",
     "s5_body": "Consultor de inmigración, abogado, contador, agente inmobiliario, asesor de estudios en el extranjero, corredor de seguros — Filenest incluye plantillas para tu flujo de trabajo. Los documentos y campos correctos, listos desde el primer día. Y organiza igual de bien tus propios papeles de visa, impuestos y estudios."
   },
+  "themeShowcase": {
+    "label": "Diseñado para tu Mac",
+    "heading": "Cómodo para la vista, de día o de noche.",
+    "body": "Elige el aspecto que mejor se adapte a tu espacio de trabajo. Filenest admite los modos claro y oscuro y puede seguir el sistema automáticamente.",
+    "controlLabel": "Elegir el tema de la interfaz",
+    "light": "Claro",
+    "dark": "Oscuro",
+    "lightAlt": "Interfaz de archivos de Filenest en modo claro",
+    "darkAlt": "Interfaz de archivos de Filenest en modo oscuro"
+  },
   "pricing": {
     "label": "Precios",
     "heading": "Precios simples y transparentes",

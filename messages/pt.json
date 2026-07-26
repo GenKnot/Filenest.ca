@@ -48,6 +48,16 @@
     "s5_headline": "Modelos para cada profissão.",
     "s5_body": "Consultor de imigração, advogado, contador, corretor imobiliário, consultor de intercâmbio, corretor de seguros — Filenest inclui modelos para o seu fluxo de trabalho. Os documentos e campos certos, prontos desde o primeiro dia. E organiza igualmente bem seus próprios documentos de visto, impostos e estudos."
   },
+  "themeShowcase": {
+    "label": "Feito para o seu Mac",
+    "heading": "Confortável para os olhos, de dia ou à noite.",
+    "body": "Escolha a aparência ideal para o seu espaço de trabalho. O Filenest oferece modos claro e escuro e pode acompanhar o sistema automaticamente.",
+    "controlLabel": "Escolher o tema da interface",
+    "light": "Claro",
+    "dark": "Escuro",
+    "lightAlt": "Interface de arquivos do Filenest no modo claro",
+    "darkAlt": "Interface de arquivos do Filenest no modo escuro"
+  },
   "pricing": {
     "label": "Preços",
     "heading": "Preços simples e transparentes",

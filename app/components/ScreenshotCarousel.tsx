@@ -5,13 +5,46 @@ import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 
 const screenshots = [
-  { src: "/ss-3.png", alt: "Filenest Archives — document list with AI-extracted summaries and tags" },
-  { src: "/ss-5.png", alt: "Filenest AI Chat — ask questions about your documents locally" },
-  { src: "/ss-6.png", alt: "Filenest extracted fields — AI suggestion review" },
-  { src: "/ss-4.png", alt: "Filenest AI Chat — detailed document analysis" },
-  { src: "/ss-7.png", alt: "Filenest New Archive — template selection" },
-  { src: "/ss-2.png", alt: "Filenest New Archive — dark theme" },
-  { src: "/ss-1.png", alt: "Filenest Settings — AI models and language" },
+  {
+    src: "/screenshots/archive-document-list.png",
+    alt: "Filenest archive with AI summaries, document types, and extracted tags",
+  },
+  {
+    src: "/screenshots/ai-chat-light.png",
+    alt: "Filenest AI Chat answering questions with cited local document sources",
+  },
+  {
+    src: "/screenshots/document-preview-expanded.png",
+    alt: "Filenest document preview with extracted fields and suggested values",
+  },
+  {
+    src: "/screenshots/contact-overview.png",
+    alt: "Filenest contact overview with files, tags, and recent activity",
+  },
+  {
+    src: "/screenshots/search-results.png",
+    alt: "Filenest search results across archives and documents",
+  },
+  {
+    src: "/screenshots/archive-document-list-dark.png",
+    alt: "Filenest archive with document summaries in dark mode",
+  },
+  {
+    src: "/screenshots/ai-chat-dark.png",
+    alt: "Filenest AI Chat answering document questions in dark mode",
+  },
+  {
+    src: "/screenshots/contact-overview-dark.png",
+    alt: "Filenest contact overview in dark mode",
+  },
+  {
+    src: "/screenshots/settings-local-ai.png",
+    alt: "Filenest local AI settings and offline model controls",
+  },
+  {
+    src: "/screenshots/settings-archive-templates-dark.png",
+    alt: "Filenest archive templates for professional workflows in dark mode",
+  },
 ];
 
 const INTERVAL = 4500;
@@ -41,7 +74,10 @@ export default function ScreenshotCarousel() {
       <div className="absolute -top-px inset-x-0 h-px bg-gradient-to-r from-transparent via-accent/50 to-transparent z-10" />
 
       {/* Screenshot frame */}
-      <div className="relative overflow-hidden rounded-t-2xl border border-b-0 border-border-subtle bg-surface" style={{ aspectRatio: "16/10" }}>
+      <div
+        className="relative overflow-hidden rounded-t-2xl border border-b-0 border-border-subtle bg-surface"
+        style={{ aspectRatio: "87/57" }}
+      >
         <AnimatePresence initial={false} custom={direction} mode="sync">
           <motion.div
             key={index}
@@ -56,7 +92,7 @@ export default function ScreenshotCarousel() {
               src={screenshots[index].src}
               alt={screenshots[index].alt}
               fill
-              className="object-cover object-top"
+              className="object-contain"
               priority={index === 0}
               sizes="(max-width: 896px) 100vw, 896px"
             />
