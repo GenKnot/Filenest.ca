@@ -1,4 +1,7 @@
+import type { Metadata } from "next";
 import LegalLayout from "../../components/LegalLayout";
+import { locales, type Locale } from "../../../i18n/routing";
+import { legalPageMetadata } from "../../../lib/seo";
 
 const titles: Record<string, { title: string; effective: string }> = {
   en: { title: "Refund Policy", effective: "Effective date: June 2026" },
@@ -10,6 +13,23 @@ const titles: Record<string, { title: string; effective: string }> = {
   ja: { title: "返金ポリシー", effective: "施行日：2026年6月" },
   ko: { title: "환불정책", effective: "시행일: 2026년 6월" },
 };
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const safeLocale: Locale = locales.includes(locale as Locale) ? (locale as Locale) : "en";
+
+  return legalPageMetadata({
+    locale: safeLocale,
+    route: "/refund",
+    title: titles[safeLocale].title,
+    description:
+      "Review Filenest's 14-day money-back guarantee and refund terms for monthly, annual, and lifetime purchases.",
+  });
+}
 
 export default async function RefundPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

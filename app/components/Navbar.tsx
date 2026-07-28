@@ -5,17 +5,18 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { useTranslations } from "../../lib/i18n";
+import { useLocale, useTranslations } from "../../lib/i18n";
 import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Navbar() {
   const t = useTranslations("nav");
+  const locale = useLocale();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const navLinks = [
-    { label: t("features"), href: "#features" },
-    { label: t("pricing"), href: "#pricing" },
+    { label: t("features"), href: `/${locale}#features` },
+    { label: t("pricing"), href: `/${locale}#pricing` },
   ];
 
   useEffect(() => {
@@ -41,7 +42,7 @@ export default function Navbar() {
           }`}
         />
 
-        <Link href="/" className="flex items-center gap-2.5 group">
+        <Link href={`/${locale}`} className="flex items-center gap-2.5 group">
           <div className="relative h-8 w-8">
             <Image
               src="/logo.png"
@@ -67,7 +68,7 @@ export default function Navbar() {
           ))}
           <LanguageSwitcher />
           <a
-            href="#pricing"
+            href={`/${locale}#pricing`}
             className="text-sm font-semibold px-4 py-2 rounded-lg bg-foreground text-background hover:bg-foreground/90 transition-colors duration-200"
           >
             {t("cta")}
@@ -107,7 +108,7 @@ export default function Navbar() {
                 </a>
               ))}
               <a
-                href="#pricing"
+                href={`/${locale}#pricing`}
                 onClick={() => setMobileOpen(false)}
                 className="mt-1 text-sm font-semibold px-4 py-2.5 rounded-lg bg-foreground text-background text-center hover:bg-foreground/90 transition-colors"
               >

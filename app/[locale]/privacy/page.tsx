@@ -1,4 +1,7 @@
+import type { Metadata } from "next";
 import LegalLayout from "../../components/LegalLayout";
+import { locales, type Locale } from "../../../i18n/routing";
+import { legalPageMetadata } from "../../../lib/seo";
 
 const titles: Record<string, { title: string; effective: string }> = {
   en: { title: "Privacy Policy", effective: "Effective date: June 2026" },
@@ -10,6 +13,23 @@ const titles: Record<string, { title: string; effective: string }> = {
   ja: { title: "プライバシーポリシー", effective: "施行日：2026年6月" },
   ko: { title: "개인정보처리방침", effective: "시행일: 2026년 6월" },
 };
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const safeLocale: Locale = locales.includes(locale as Locale) ? (locale as Locale) : "en";
+
+  return legalPageMetadata({
+    locale: safeLocale,
+    route: "/privacy",
+    title: titles[safeLocale].title,
+    description:
+      "Learn how Filenest protects your privacy with local-first document storage, on-device AI processing, and no cloud uploads.",
+  });
+}
 
 export default async function PrivacyPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

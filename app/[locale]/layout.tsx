@@ -3,6 +3,7 @@ import { Inter, Geist_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
 import { locales } from "../../i18n/routing";
 import { I18nProvider } from "../../lib/i18n";
+import { languageAlternates, localizedUrl } from "../../lib/seo";
 import "../globals.css";
 
 const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
@@ -12,13 +13,6 @@ const OG_LOCALE: Record<string, string> = {
   en: "en_CA", "zh-CN": "zh_CN", "zh-TW": "zh_TW", fr: "fr_CA",
   es: "es_ES", pt: "pt_BR", ja: "ja_JP", ko: "ko_KR",
 };
-
-/** hreflang alternates: every locale + x-default → /en. Without these, Google
- * treats 8 language variants as duplicate content and picks one at random. */
-const LANGUAGE_ALTERNATES = Object.fromEntries([
-  ...locales.map((l) => [l, `https://filenest.ca/${l}`]),
-  ["x-default", "https://filenest.ca/en"],
-]);
 
 export async function generateMetadata({
   params,
@@ -30,13 +24,13 @@ export async function generateMetadata({
   const seo = messages.seo ?? {};
   const title: string = seo.title ?? "Filenest — Local-First Document Management with AI";
   const description: string = seo.description ?? "";
-  const url = `https://filenest.ca/${locale}`;
+  const url = localizedUrl(locale);
 
   return {
     metadataBase: new URL("https://filenest.ca"),
     title,
     description,
-    alternates: { canonical: url, languages: LANGUAGE_ALTERNATES },
+    alternates: { canonical: url, languages: languageAlternates() },
     icons: {
       icon: [
         { url: "/icon.png", sizes: "192x192", type: "image/png" },
@@ -80,8 +74,6 @@ export default async function LocaleLayout({
     notFound();
   }
 
-  // Load messages directly — no external dependency
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
   const messages = (await import(`../../messages/${locale}.json`)).default;
 
   return (
@@ -94,29 +86,6 @@ export default async function LocaleLayout({
         <I18nProvider messages={messages} locale={locale}>
           {children}
         </I18nProvider>
-        {/* Structured data: lets search results show Filenest as a macOS app
-            with its price range (rich snippet eligibility). */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "SoftwareApplication",
-              name: "Filenest",
-              operatingSystem: "macOS",
-              applicationCategory: "BusinessApplication",
-              description: messages.seo?.description,
-              url: `https://filenest.ca/${locale}`,
-              offers: {
-                "@type": "AggregateOffer",
-                priceCurrency: "USD",
-                lowPrice: "3.99",
-                highPrice: "199",
-                offerCount: 3,
-              },
-            }),
-          }}
-        />
       </body>
     </html>
   );

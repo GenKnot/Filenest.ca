@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight } from "lucide-react";
 import { locales } from "../../../../i18n/routing";
+import { BASE_URL, languageAlternates, localizedUrl } from "../../../../lib/seo";
 import Navbar from "../../../components/Navbar";
 import Footer from "../../../sections/Footer";
 
@@ -13,8 +14,6 @@ import Footer from "../../../sections/Footer";
 
 const PROFESSIONS = ["immigration-consultants", "lawyers", "accountants"] as const;
 type Profession = (typeof PROFESSIONS)[number];
-
-const BASE = "https://filenest.ca";
 
 interface UseCaseCopy {
   metaTitle: string;
@@ -53,17 +52,14 @@ export async function generateMetadata({
   if (!loaded) return {};
   const { copy } = loaded;
   const route = `/for/${profession}`;
-  const url = `${BASE}/${locale}${route}`;
+  const url = localizedUrl(locale, route);
   return {
-    metadataBase: new URL(BASE),
+    metadataBase: new URL(BASE_URL),
     title: copy.metaTitle,
     description: copy.metaDesc,
     alternates: {
       canonical: url,
-      languages: Object.fromEntries([
-        ...locales.map((l) => [l, `${BASE}/${l}${route}`]),
-        ["x-default", `${BASE}/en${route}`],
-      ]),
+      languages: languageAlternates(route),
     },
     openGraph: {
       title: copy.metaTitle,

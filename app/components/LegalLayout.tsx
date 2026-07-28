@@ -18,7 +18,7 @@ export default function LegalLayout({ title, effectiveDate, children }: LegalLay
               {title}
             </h1>
             <p className="mt-2 text-sm text-foreground-dim">
-              Effective date: {effectiveDate}
+              {effectiveDate}
             </p>
           </div>
           <div className="prose-legal">{children}</div>

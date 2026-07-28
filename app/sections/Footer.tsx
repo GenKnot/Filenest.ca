@@ -28,7 +28,7 @@ export default function Footer() {
     <footer className="border-t border-border-subtle px-6 py-12 md:py-16">
       <div className="mx-auto max-w-7xl flex flex-col md:flex-row items-center justify-between gap-8">
         <div className="flex flex-col items-center md:items-start gap-3">
-          <Link href="/" className="flex items-center gap-2.5">
+          <Link href={`/${locale}`} className="flex items-center gap-2.5">
             <div className="relative h-7 w-7">
               <Image src="/logo.png" alt="Filenest" fill className="object-contain" />
             </div>
@@ -56,9 +56,9 @@ export default function Footer() {
           <Link href={`/${locale}/for/immigration-consultants`} className="hover:text-foreground transition-colors">{t("for_ic")}</Link>
           <Link href={`/${locale}/for/lawyers`} className="hover:text-foreground transition-colors">{t("for_law")}</Link>
           <Link href={`/${locale}/for/accountants`} className="hover:text-foreground transition-colors">{t("for_acc")}</Link>
-          <Link href="/privacy" className="hover:text-foreground transition-colors">{t("privacy")}</Link>
-          <Link href="/terms" className="hover:text-foreground transition-colors">{t("terms")}</Link>
-          <Link href="/refund" className="hover:text-foreground transition-colors">{t("refund")}</Link>
+          <Link href="/en/privacy" className="hover:text-foreground transition-colors">{t("privacy")}</Link>
+          <Link href="/en/terms" className="hover:text-foreground transition-colors">{t("terms")}</Link>
+          <Link href="/en/refund" className="hover:text-foreground transition-colors">{t("refund")}</Link>
           <a href="mailto:info@mischicat.com" className="hover:text-foreground transition-colors">{t("contact")}</a>
         </div>
       </div>

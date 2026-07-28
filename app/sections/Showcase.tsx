@@ -29,10 +29,10 @@ const screenshots = [
 ];
 
 function ShowcaseItem({
-  tag, headline, body, screenshot, alt, index, activeIndex, onEnter,
+  tag, headline, body, screenshot, alt, index, onEnter,
 }: {
   tag: string; headline: string; body: string; screenshot: string; alt: string;
-  index: number; activeIndex: number; onEnter: (i: number) => void;
+  index: number; onEnter: (i: number) => void;
 }) {
   const ref = useRef<HTMLDivElement>(null);
   const inView = useInView(ref, { margin: "-25% 0px -25% 0px" });
@@ -127,7 +127,6 @@ export default function Showcase() {
                 key={item.tag}
                 {...item}
                 index={i}
-                activeIndex={activeIndex}
                 onEnter={setActiveIndex}
               />
             ))}
