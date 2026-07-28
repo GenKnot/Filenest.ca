@@ -27,7 +27,7 @@ export default function Navbar() {
 
   return (
     <motion.header
-      initial={{ y: -24, opacity: 0 }}
+      initial={false}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -45,7 +45,7 @@ export default function Navbar() {
         <Link href={`/${locale}`} className="flex items-center gap-2.5 group">
           <div className="relative h-8 w-8">
             <Image
-              src="/logo.png"
+              src="/icon.png"
               alt="Filenest"
               fill
               className="object-contain transition-transform duration-300 group-hover:scale-105"

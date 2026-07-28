@@ -102,6 +102,8 @@
     "terms": "利用規約",
     "refund": "返金ポリシー",
     "contact": "お問い合わせ",
+    "about": "Filenestについて",
+    "security": "セキュリティ",
     "copyright": "All rights reserved.",
     "for_ic": "移民コンサルタント向け",
     "for_law": "弁護士向け",
@@ -120,8 +122,14 @@
     "effective": "施行日：2026年6月"
   },
   "seo": {
-    "title": "Filenest — Mac向けローカルAI書類管理ソフト|OCR・自動整理・期限リマインド",
-    "description": "移民コンサルタント・弁護士・会計士・留学カウンセラー・各種エージェントのためのローカルファースト文書管理。ビザ・税務・学校書類の個人管理にも。AIが自動でOCR・分類・期限管理。データはクラウドに一切送信されず、AES-256で暗号化。"
+    "title": "Mac向けローカルAI文書管理 | Filenest",
+    "description": "Mac上のローカルAIでOCR、書類整理、情報抽出、期限通知。クラウドへのアップロードなし。AES-256で暗号化。"
+  },
+  "solutions": {
+    "label": "ソリューション",
+    "heading": "書類の多い業務のために",
+    "description": "ローカルAI、OCR、自動整理、期限通知を各業種の書類フローに合わせて活用できます。",
+    "learnMore": "ワークフローを見る"
   },
   "faq": {
     "title": "よくある質問",

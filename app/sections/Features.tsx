@@ -37,7 +37,7 @@ export default function Features() {
       <div className="mx-auto max-w-7xl">
         <motion.div
           ref={titleRef}
-          initial={{ opacity: 0, y: 24 }}
+          initial={false}
           animate={titleInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] as const }}
           className="mb-16 md:mb-20 max-w-2xl"
@@ -85,7 +85,7 @@ function FeatureCard({
   return (
     <motion.div
       ref={ref}
-      initial={{ opacity: 0, y: 40 }}
+      initial={false}
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.7, delay: index * 0.15, ease: [0.22, 1, 0.36, 1] as const }}
       className="card-shine group relative rounded-2xl border border-border-subtle bg-surface p-8 transition-colors duration-300 hover:border-border-medium"

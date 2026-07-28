@@ -102,6 +102,8 @@
     "terms": "Terms",
     "refund": "Refund",
     "contact": "Contact",
+    "about": "About",
+    "security": "Security",
     "copyright": "All rights reserved.",
     "for_ic": "For immigration consultants",
     "for_law": "For lawyers",
@@ -120,8 +122,14 @@
     "effective": "Effective date: June 2026"
   },
   "seo": {
-    "title": "Filenest — Local AI Document Management for Mac | OCR & Smart Filing",
-    "description": "AI-powered document management for immigration consultants, lawyers, accountants, study-abroad advisors, agents — and your own visa, tax, and school papers. Automatic OCR, smart filing, key-date reminders. Your files, your AI, your machine — zero cloud uploads, AES-256 encrypted."
+    "title": "Local AI Document Management for Mac | Filenest",
+    "description": "Organize, search, and extract data from documents with private on-device AI. OCR, smart filing, and expiry reminders with zero cloud uploads."
+  },
+  "solutions": {
+    "label": "Solutions",
+    "heading": "Built for document-heavy work",
+    "description": "See how Filenest adapts local AI, OCR, filing, and reminders to the documents your profession handles every day.",
+    "learnMore": "Explore this workflow"
   },
   "faq": {
     "title": "Frequently asked questions",
@@ -141,8 +149,8 @@
   "useCases": {
     "see_pricing": "See pricing",
     "immigration-consultants": {
-      "metaTitle": "Document Management Software for Immigration Consultants | Filenest",
-      "metaDesc": "Organize client immigration files with local AI: automatic OCR and filing, required-document checklists, permit expiry reminders. No cloud. Client data stays on your Mac.",
+      "metaTitle": "Immigration Document Management Software | Filenest",
+      "metaDesc": "Organize client immigration files with local AI, OCR, document checklists, and permit expiry reminders. No cloud uploads; data stays on your Mac.",
       "h1": "Document management built for immigration consultants",
       "intro": "Every case is a mountain of passports, permits, letters and forms. Each with its own deadline. Filenest reads every file with local AI, files it under the right client, and keeps the checklist and key dates in front of you.",
       "b1t": "Per-client archives with material checklists",
@@ -156,8 +164,8 @@
       "cta": "Try Filenest free and watch your case files organize themselves."
     },
     "lawyers": {
-      "metaTitle": "Legal Document Management Software for Lawyers | Filenest",
-      "metaDesc": "Manage matter files with local AI: automatic OCR, smart filing by client, key-date reminders and full-text search. Privileged documents never leave your Mac.",
+      "metaTitle": "Legal Document Management for Lawyers | Filenest",
+      "metaDesc": "Organize legal files with local AI search, OCR, field extraction, and deadline reminders. Sensitive client documents stay on your Mac.",
       "h1": "Document management that respects privilege",
       "intro": "Contracts, court letters, evidence, IDs. Matter files grow fast. Filenest reads, classifies and files each document under the right client, while everything stays on your machine.",
       "b1t": "Matter-centric archives",
@@ -171,8 +179,8 @@
       "cta": "Try Filenest free. Your matter files, organized and confidential."
     },
     "accountants": {
-      "metaTitle": "Document Management Software for Accountants | Filenest",
-      "metaDesc": "Tame tax-season paper with local AI: automatic OCR of receipts and statements, per-client filing, deadline reminders. Client financials stay on your Mac.",
+      "metaTitle": "Document Management for Accountants | Filenest",
+      "metaDesc": "Organize receipts, invoices, tax files, and client records with local AI, OCR, smart filing, and reminders—without cloud uploads.",
       "h1": "Tax-season paper, organized by local AI",
       "intro": "Receipts, invoices, bank statements, notices. Every client brings a shoebox. Filenest reads each document, extracts amounts and dates, and files it under the right client automatically.",
       "b1t": "Per-client, per-season order",

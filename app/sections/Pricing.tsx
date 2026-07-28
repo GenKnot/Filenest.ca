@@ -65,7 +65,7 @@ export default function Pricing() {
       <div className="mx-auto max-w-5xl">
         <motion.div
           ref={titleRef}
-          initial={{ opacity: 0, y: 24 }}
+          initial={false}
           animate={titleInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] as const }}
           className="mb-16 md:mb-20 text-center"
@@ -107,7 +107,7 @@ function PricingCard({
   return (
     <motion.div
       ref={ref}
-      initial={{ opacity: 0, y: 40 }}
+      initial={false}
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.7, delay: index * 0.15, ease: [0.22, 1, 0.36, 1] as const }}
       className={`relative flex flex-col rounded-2xl border p-8 transition-colors duration-300 ${

@@ -102,6 +102,8 @@
     "terms": "Termos",
     "refund": "Reembolso",
     "contact": "Contato",
+    "about": "Sobre",
+    "security": "Segurança",
     "copyright": "Todos os direitos reservados.",
     "for_ic": "Para consultores de imigração",
     "for_law": "Para advogados",
@@ -120,8 +122,14 @@
     "effective": "Data de vigência: junho 2026"
   },
   "seo": {
-    "title": "Filenest — Gestão de documentos com IA local para Mac | OCR e arquivamento inteligente",
-    "description": "Gestão de documentos com IA para consultores de imigração, advogados, contadores, consultores de intercâmbio, corretores — e seus próprios documentos de visto, impostos e estudos. OCR automático, arquivamento inteligente, lembretes de prazos. Seus arquivos nunca saem da sua máquina — criptografia AES-256."
+    "title": "Gestão de documentos com IA local para Mac | Filenest",
+    "description": "Organize, pesquise e extraia dados de documentos com IA privada no Mac. OCR, arquivamento inteligente e lembretes, sem envios à nuvem."
+  },
+  "solutions": {
+    "label": "Soluções",
+    "heading": "Feito para trabalhos com muitos documentos",
+    "description": "Veja como o Filenest adapta IA local, OCR, organização e lembretes aos documentos da sua profissão.",
+    "learnMore": "Explorar este fluxo"
   },
   "faq": {
     "title": "Perguntas frequentes",

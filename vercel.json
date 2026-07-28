@@ -20,6 +20,21 @@
       "source": "/refund",
       "destination": "/en/refund",
       "permanent": true
+    },
+    {
+      "source": "/about",
+      "destination": "/en/about",
+      "permanent": true
+    },
+    {
+      "source": "/security",
+      "destination": "/en/security",
+      "permanent": true
+    },
+    {
+      "source": "/contact",
+      "destination": "/en/contact",
+      "permanent": true
     }
   ]
 }

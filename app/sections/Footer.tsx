@@ -30,7 +30,7 @@ export default function Footer() {
         <div className="flex flex-col items-center md:items-start gap-3">
           <Link href={`/${locale}`} className="flex items-center gap-2.5">
             <div className="relative h-7 w-7">
-              <Image src="/logo.png" alt="Filenest" fill className="object-contain" />
+              <Image src="/icon.png" alt="Filenest" fill className="object-contain" />
             </div>
             <span className="text-base font-semibold tracking-tight text-foreground">Filenest</span>
           </Link>
@@ -56,10 +56,12 @@ export default function Footer() {
           <Link href={`/${locale}/for/immigration-consultants`} className="hover:text-foreground transition-colors">{t("for_ic")}</Link>
           <Link href={`/${locale}/for/lawyers`} className="hover:text-foreground transition-colors">{t("for_law")}</Link>
           <Link href={`/${locale}/for/accountants`} className="hover:text-foreground transition-colors">{t("for_acc")}</Link>
+          <Link href="/en/about" className="hover:text-foreground transition-colors">{t("about")}</Link>
+          <Link href="/en/security" className="hover:text-foreground transition-colors">{t("security")}</Link>
           <Link href="/en/privacy" className="hover:text-foreground transition-colors">{t("privacy")}</Link>
           <Link href="/en/terms" className="hover:text-foreground transition-colors">{t("terms")}</Link>
           <Link href="/en/refund" className="hover:text-foreground transition-colors">{t("refund")}</Link>
-          <a href="mailto:info@mischicat.com" className="hover:text-foreground transition-colors">{t("contact")}</a>
+          <Link href="/en/contact" className="hover:text-foreground transition-colors">{t("contact")}</Link>
         </div>
       </div>
 

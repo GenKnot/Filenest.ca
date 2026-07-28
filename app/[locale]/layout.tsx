@@ -1,13 +1,9 @@
 import type { Metadata } from "next";
-import { Inter, Geist_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
 import { locales } from "../../i18n/routing";
 import { I18nProvider } from "../../lib/i18n";
 import { languageAlternates, localizedUrl } from "../../lib/seo";
 import "../globals.css";
-
-const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
-const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
 const OG_LOCALE: Record<string, string> = {
   en: "en_CA", "zh-CN": "zh_CN", "zh-TW": "zh_TW", fr: "fr_CA",
@@ -80,7 +76,7 @@ export default async function LocaleLayout({
     <html
       lang={locale}
       data-scroll-behavior="smooth"
-      className={`${inter.variable} ${geistMono.variable} h-full antialiased`}
+      className="h-full antialiased"
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
         <I18nProvider messages={messages} locale={locale}>

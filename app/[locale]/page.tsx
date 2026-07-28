@@ -3,6 +3,7 @@ import Hero from "../sections/Hero";
 import Features from "../sections/Features";
 import Showcase from "../sections/Showcase";
 import ThemeShowcase from "../sections/ThemeShowcase";
+import Solutions from "../sections/Solutions";
 import Pricing from "../sections/Pricing";
 import Faq from "../sections/Faq";
 import Footer from "../sections/Footer";
@@ -21,6 +22,7 @@ export default async function Home({
       <main className="flex-1">
         <Hero />
         <Features />
+        <Solutions locale={locale} messages={messages} />
         <Showcase />
         <ThemeShowcase />
         <Pricing />
@@ -32,19 +34,32 @@ export default async function Home({
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "SoftwareApplication",
-            name: "Filenest",
-            operatingSystem: "macOS",
-            applicationCategory: "BusinessApplication",
-            description: messages.seo?.description,
-            url: `https://filenest.ca/${locale}`,
-            offers: {
-              "@type": "AggregateOffer",
-              priceCurrency: "USD",
-              lowPrice: "3.99",
-              highPrice: "199",
-              offerCount: 3,
-            },
+            "@graph": [
+              {
+                "@type": "WebSite",
+                "@id": "https://filenest.ca/#website",
+                url: "https://filenest.ca/",
+                name: "Filenest",
+                alternateName: "Filenest for Mac",
+                inLanguage: locale,
+              },
+              {
+                "@type": "Organization",
+                "@id": "https://filenest.ca/#organization",
+                name: "Filenest",
+                url: "https://filenest.ca/",
+                logo: {
+                  "@type": "ImageObject",
+                  url: "https://filenest.ca/icon.png",
+                  width: 192,
+                  height: 192,
+                },
+                sameAs: [
+                  "https://github.com/GenKnot",
+                  "https://x.com/GenKnot",
+                ],
+              },
+            ],
           }),
         }}
       />

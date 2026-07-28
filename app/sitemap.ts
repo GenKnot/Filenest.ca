@@ -12,18 +12,21 @@ const LOCALIZED_ROUTES = [
 ] as const;
 
 const ENGLISH_ONLY_ROUTES = [
+  "/about",
+  "/security",
+  "/contact",
   "/privacy",
   "/terms",
   "/refund",
 ] as const;
 
+const LAST_SIGNIFICANT_UPDATE = "2026-07-27";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const localizedPages = LOCALIZED_ROUTES.flatMap((route) =>
     locales.map((locale) => ({
       url: localizedUrl(locale, route),
-      changeFrequency:
-        route === "" ? ("weekly" as const) : route.startsWith("/for/") ? ("monthly" as const) : ("yearly" as const),
-      priority: route === "" ? 1 : route.startsWith("/for/") ? 0.8 : 0.3,
+      lastModified: LAST_SIGNIFICANT_UPDATE,
       alternates: { languages: languageAlternates(route) },
     })),
   );
@@ -32,8 +35,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const url = localizedUrl("en", route);
     return {
       url,
-      changeFrequency: "yearly" as const,
-      priority: 0.3,
+      lastModified: LAST_SIGNIFICANT_UPDATE,
       alternates: {
         languages: {
           en: url,

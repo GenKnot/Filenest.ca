@@ -63,7 +63,7 @@ export default function Hero() {
         <motion.div
           custom={0}
           variants={fadeUp}
-          initial="hidden"
+          initial={false}
           animate="visible"
           className="mb-6 inline-flex items-center gap-2 rounded-full border border-border-medium bg-surface/60 px-4 py-1.5 backdrop-blur-md"
         >
@@ -79,7 +79,7 @@ export default function Hero() {
         <motion.h1
           custom={1}
           variants={fadeUp}
-          initial="hidden"
+          initial={false}
           animate="visible"
           className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-[1.05]"
         >
@@ -91,7 +91,7 @@ export default function Hero() {
         <motion.p
           custom={2}
           variants={fadeUp}
-          initial="hidden"
+          initial={false}
           animate="visible"
           className="mt-6 max-w-2xl text-lg md:text-xl text-foreground-muted leading-relaxed"
         >
@@ -101,7 +101,7 @@ export default function Hero() {
         <motion.div
           custom={3}
           variants={fadeUp}
-          initial="hidden"
+          initial={false}
           animate="visible"
           className="mt-10 flex flex-col sm:flex-row items-center gap-4"
         >
@@ -127,7 +127,7 @@ export default function Hero() {
         <motion.p
           custom={3}
           variants={fadeUp}
-          initial="hidden"
+          initial={false}
           animate="visible"
           className="mt-4 text-xs text-foreground-dim"
         >
@@ -137,7 +137,7 @@ export default function Hero() {
         <motion.div
           custom={4}
           variants={fadeUp}
-          initial="hidden"
+          initial={false}
           animate="visible"
           className="mt-12 flex flex-wrap items-center justify-center gap-6 text-sm text-foreground-dim"
         >
@@ -159,7 +159,7 @@ export default function Hero() {
         <motion.div
           custom={5}
           variants={fadeUp}
-          initial="hidden"
+          initial={false}
           animate="visible"
           className="mt-16 md:mt-20 w-full max-w-4xl"
         >

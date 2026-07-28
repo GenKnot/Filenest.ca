@@ -14,7 +14,7 @@ export function languageAlternates(route = "") {
   ]);
 }
 
-export function legalPageMetadata({
+export function englishOnlyPageMetadata({
   locale,
   route,
   title,
@@ -27,10 +27,13 @@ export function legalPageMetadata({
 }): Metadata {
   const canonical = localizedUrl("en", route);
   const isEnglish = locale === "en";
+  const metadataTitle = title.toLowerCase().includes("filenest")
+    ? title
+    : `${title} | Filenest`;
 
   return {
     metadataBase: new URL(BASE_URL),
-    title: `${title} | Filenest`,
+    title: metadataTitle,
     description,
     alternates: {
       canonical,
@@ -44,7 +47,7 @@ export function legalPageMetadata({
       follow: true,
     },
     openGraph: {
-      title: `${title} | Filenest`,
+      title: metadataTitle,
       description,
       url: canonical,
       siteName: "Filenest",
@@ -54,10 +57,12 @@ export function legalPageMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: `${title} | Filenest`,
+      title: metadataTitle,
       description,
       creator: "@GenKnot",
       images: ["/og-image.png"],
     },
   };
 }
+
+export const legalPageMetadata = englishOnlyPageMetadata;

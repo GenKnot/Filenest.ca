@@ -102,6 +102,8 @@
     "terms": "服务条款",
     "refund": "退款政策",
     "contact": "联系我们",
+    "about": "关于",
+    "security": "安全",
     "copyright": "保留所有权利。",
     "for_ic": "移民顾问版",
     "for_law": "律师版",
@@ -120,8 +122,14 @@
     "effective": "生效日期：2026 年 6 月"
   },
   "seo": {
-    "title": "Filenest — Mac 本地 AI 文档管理软件|OCR 识别·自动归档·到期提醒",
-    "description": "为移民顾问、律师、会计师、留学顾问、各类经纪人打造的本地优先文档管理软件，也适合管理个人签证、税务、学籍资料。AI 自动识别扫描件、智能归档、提醒关键到期日。数据永不上传云端,AES-256 加密保护。"
+    "title": "Mac 本地 AI 文档管理软件 | Filenest",
+    "description": "用 Mac 本地 AI 完成文档 OCR、智能归档、信息提取和到期提醒。资料不上传云端，并采用 AES-256 加密保护。"
+  },
+  "solutions": {
+    "label": "解决方案",
+    "heading": "为文档密集型工作而设计",
+    "description": "看 Filenest 如何把本地 AI、OCR、智能归档和到期提醒融入你的专业工作流程。",
+    "learnMore": "查看工作流程"
   },
   "faq": {
     "title": "常见问题",

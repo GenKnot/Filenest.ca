@@ -84,6 +84,8 @@ export default async function UseCasePage({
   const loaded = await loadCopy(locale, profession);
   if (!loaded) notFound();
   const { copy, download, pricing } = loaded;
+  const route = `/for/${profession}`;
+  const url = localizedUrl(locale, route);
 
   const blocks = [
     { t: copy.b1t, d: copy.b1d },
@@ -99,6 +101,16 @@ export default async function UseCasePage({
         <section className="relative isolate overflow-hidden px-6 pt-36 pb-16 md:pt-44">
           <div aria-hidden className="hero-glow absolute inset-0 pointer-events-none" />
           <div className="relative z-10 mx-auto max-w-3xl text-center">
+            <nav
+              aria-label="Breadcrumb"
+              className="mb-6 flex items-center justify-center gap-2 text-sm text-foreground-muted"
+            >
+              <Link href={`/${locale}`} className="transition-colors hover:text-foreground">
+                Filenest
+              </Link>
+              <span aria-hidden>/</span>
+              <span aria-current="page">{copy.h1}</span>
+            </nav>
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight leading-tight">{copy.h1}</h1>
             <p className="mt-6 text-lg leading-relaxed text-foreground-muted">{copy.intro}</p>
             <div className="mt-9 flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -132,6 +144,29 @@ export default async function UseCasePage({
         </section>
       </main>
       <Footer />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Filenest",
+                item: localizedUrl(locale),
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: copy.h1,
+                item: url,
+              },
+            ],
+          }),
+        }}
+      />
     </>
   );
 }

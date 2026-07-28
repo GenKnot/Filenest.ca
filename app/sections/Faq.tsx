@@ -9,9 +9,8 @@ const ITEMS = [1, 2, 3, 4, 5, 6] as const;
 
 /**
  * FAQ — SEO workhorse (roadmap: landing tier-1 SEO). Each question is written
- * as a real search query in each locale; the FAQPage JSON-LD makes the Q&As
- * eligible for rich results. <details>/<summary> keeps the answers in the
- * static HTML (indexed) with zero JS state.
+ * as a real search query in each locale. <details>/<summary> keeps the answers
+ * in the static HTML so they remain accessible and indexable.
  */
 export default function Faq() {
   const t = useTranslations("faq");
@@ -25,7 +24,7 @@ export default function Faq() {
       <div className="mx-auto max-w-3xl">
         <motion.div
           ref={titleRef}
-          initial={{ opacity: 0, y: 24 }}
+          initial={false}
           animate={titleInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
           className="text-center mb-12"
@@ -51,22 +50,6 @@ export default function Faq() {
           ))}
         </div>
       </div>
-
-      {/* FAQPage rich-result eligibility — same strings as the visible Q&As. */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: qa.map(({ q, a }) => ({
-              "@type": "Question",
-              name: q,
-              acceptedAnswer: { "@type": "Answer", text: a },
-            })),
-          }),
-        }}
-      />
     </section>
   );
 }
